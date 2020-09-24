@@ -1,0 +1,22 @@
+.headerBox{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.shiftBox{
+    padding: 100px;
+}
+
+/* FONTS */
+
+.openingHead{
+    font-size: 65px;
+    font-weight: bold;
+
+}
+
+.openingText{
+    font-size:17px;
+}
+
+/* Ends Here */
