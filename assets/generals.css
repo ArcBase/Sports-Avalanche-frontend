@@ -1,7 +1,7 @@
 .displayBoxes-box{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -9,7 +9,7 @@
     display: block;
     justify-content: center;
     align-self:center ;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    
     transition: all 0.3s ease-in-out;
 }
 
@@ -20,18 +20,25 @@
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-heading{
     margin: 0px 0px 0px 0px;
     font-size: 23px;
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+   padding: 10px;
+   font-weight: bold;
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-text{
-    margin: 0px 0px 0px 0px;
-    padding: 20px;
     font-size: 14px;
+    text-align: center;
+   padding: 10px;
+   
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-icon{
     margin: 10px 0px 0px 0px;
+   padding: 10px;
+    display : flex;
+    align-self:center;
+
+    justify-content: center;
 }
 
 

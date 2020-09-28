@@ -1,0 +1,59 @@
+.team-container-fit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1004px;
+}
+
+.team-list-box{
+    display: flex;
+
+    justify-content: center;
+    align-self:center ;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+ 
+.team-container .team-list-box .team-box-content{
+    padding: 20px;
+}
+
+.team-container .team-list-box .team-box-content .team-user-avatar{
+   
+    height: 200px;
+    
+
+}
+
+.team-container .team-list-box .team-box-content .team-user-avatar .team-user-avatar-image{
+    height: inherit;
+    width: 200px;
+    border-radius: 15px;
+}
+
+
+.team-container .team-list-box  .team-text-content{
+    display: block;
+}
+
+.team-container .team-list-box .team-text-content .team-text-heading{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.team-container .team-list-box .team-box-content .team-text-content .team-text{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
