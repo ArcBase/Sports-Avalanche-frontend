@@ -160,14 +160,7 @@ const ImageTransition = () => {
 export default function theMain() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
 
-  //   const hamburger = document.querySelector(".hamburger");
-  // const navLinks = document.querySelector(".nav-links");
-  // const links = document.querySelector(".nav-links li");
 
-
-  // hamburger.addEventListener("click", () => {
-  //     navLinks.classList.toggle("open");
-  // });
   return (
     <>
       <NavigationBar />
