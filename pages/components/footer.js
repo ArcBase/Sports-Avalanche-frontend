@@ -1,3 +1,7 @@
+export default function   FooterSection(){
+    return(
+        <>
+
 <footer>
   <div className="main-content">
     <div className="left box">
@@ -58,3 +62,8 @@
     </center>
   </div>
 </footer>
+
+
+        </>
+    )
+}

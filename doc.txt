@@ -1,0 +1,62 @@
+*SPORTS AVALANCHE CONTENTS*
+
+1. WHO WE ARE
+- An about us script for Sports Avalanche describing who we are as a company.
+
+-OUR TEAM section of the WHO WE ARE PAGE: Contains Profiles (Names, Photographs and Roles) of the various Team members (Co-founders, Developers and Advisors).
+
+
+2. WHAT WE DO:
+- A script containing what we do as a company and the product(s) we offer.
+
+- Our Mission
+- Our Vision
+- Our Values (what we believe)
+
+3. PRIVACY POLICY PAGE: 
+For the web and mobile app.
+
+4. CONTACT US PAGE:
+Our social media handles.
+
+
+*BALL HIVE*
+
+1. APP DESCRIPTION 
+- About the app and what the app does (Example: Ball Hive is an app that lets aspiring soccer players...)
+
+2. WHAT YOU CAN DO ON BALL HIVE:
+- Name or highlight the app functionalities and briefly describe each of those functionalities.
+
+3. DO I NEED BALL HIVE?
+- As An Aspiring Player: What problems Ball Hive solves for Aspiring Footballers and why they need to be on the platform.
+
+- As a Scout or Coach or Manager: problems Ball Hive solves for Scouts, Coaches and Managers.
+
+4. HOW IT WORKS:
+A brief step by step guide on how Ball Hive works (For Players and For Scouts)
+
+5. WHAT WE OFFER:
+Description of incentive programs like the Digital Academy, Fellowship and Funding for Trials,
+ The Monthly Rankings and Friendly Matches or Contests.
+
+6. FAQ PAGE:
+Frequently Asked Questions and Answers
+
+
+
+In the WHAT WE DO PAGE you’ll have a header that says 
+
+“WHO WE ARE & WHAT WE DO”
+
+Then under that section we have this:
+
+
+Sports Avalanche Ltd is a Nigerian sports technology start up with a diverse team of a Lawyer, 
+a UEFA Accredited sports journalist, Software developers, Interface designers and seasoned Business advisors. 
+We are focused on providing digital solutions to the various problems’ sports enthusiasts face across Africa and 
+the world at large. Our flagship product Ball Hive is an app created for Football players who are either professionals or
+ aspiring professionals, coaches and scouts. The goal is to facilitate scouting by giving scouts access to a large database of
+  talented players, and give players a platform to track their performance, showcase their talents and access exclusive trials across 
+  the globe.
+

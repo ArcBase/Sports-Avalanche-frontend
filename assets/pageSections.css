@@ -6,15 +6,34 @@
 .headerBox{
     height: 100vh;
     background-color: rgb(255, 255, 255);
-    background: linear-gradient(45deg, rgba(156, 114, 65, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80') center center no-repeat;
+    background: linear-gradient(45deg, rgba(10, 71, 13, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80') center center no-repeat;
     background-size: cover;
 
 }
+
+.teamBox{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, rgba(10, 71, 13, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1030&q=80') center center no-repeat;
+    background-size: cover;
+}
+
+.ballHiveBox{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, rgba(10, 71, 13, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1030&q=80') center center no-repeat;
+    background-size: cover;
+}
+
 .shiftBox{
     padding: 100px;
 }
 
 /* FONTS */
+
+.openingBox{
+    padding: 100px 0px 0px ;
+}
 
 .openingHead{
     font-size: 65px;
@@ -27,4 +46,18 @@
     font-size:17px;
 }
 
+
+.openingButton{
+    margin-top: 20px;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+    border-color:  rgb(26, 206, 41);
+    font-weight: 500;
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+    color: rgb(26, 206, 41);
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+  }
 /* Ends Here */

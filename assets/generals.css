@@ -23,25 +23,28 @@
     text-align: center;
    padding: 10px;
    font-weight: bold;
+   color:black
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-text{
     font-size: 14px;
     text-align: center;
    padding: 10px;
-   
+   color:black
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-icon{
     margin: 10px 0px 0px 0px;
-   padding: 10px;
+   padding: 0px 0px 0px 0px;
     display : flex;
-    align-self:center;
-
+    align-self:left;
     justify-content: center;
 }
 
+.displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-icon .displayBoxes-icon-image{
+    height: 100px;
 
+}
 
 /* Sign Up is Coming Section */
 
@@ -61,7 +64,6 @@
     text-decoration: none;
     text-align: left;
     color: white;
-    text-transform: uppercase;
     font-size: 1.1rem;
     
 }
@@ -83,12 +85,21 @@
 
 .centerText-section .centerText-field .centerText-container-header{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     padding: 20px;
     color: black;
     font-family: sans-serif;;
 }
+
+.centerText-section .centerText-field .centerText-container-text{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-family: sans-serif;;
+}
+
 
 
 /* Center Text heading ends here */
@@ -100,8 +111,8 @@
     grid-gap: 20px;
     padding: 0;
     list-style: none;
-     
-    /* background-image:    linear-gradient(to bottom, rgba(40, 97, 7, 0.52), rgba(19, 21, 117, 0.73)), url('https://images.unsplash.com/photo-1459865264687-595d652de67e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'); */
+    
+    background: linear-gradient(45deg, rgba(45, 228, 54, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80') center center no-repeat;
     background-color: rgb(7, 107, 7);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */

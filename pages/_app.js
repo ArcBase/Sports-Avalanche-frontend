@@ -1,11 +1,13 @@
-import '../assets/pageView.css'
+import '../assets/generalStyles.css'
 import '../assets/pageSections.css'
 import '../assets/generals.css'
 import '../assets/team.css'
 
-// ReacT Slick
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+import '../assets/components/footer.css'
+import '../assets/components/navbar.css'
+
+import {AnimatePresence} from 'framer-motion'
 
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
