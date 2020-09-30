@@ -1,16 +1,18 @@
 .team-container-fit{
     display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
     align-items: center;
-    justify-content: center;
+    margin: 20px 0px 20px 0px;
 }
 
 .team-container{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     max-width: 1004px;
 }
-
+ 
 .team-list-box{
     display: flex;
     justify-content: center;
@@ -22,13 +24,11 @@
  
 .team-container .team-list-box .team-box-content{
     padding: 20px;
+    display: block;
 }
 
 .team-container .team-list-box .team-box-content .team-user-avatar{
-   
     height: 200px;
-    
-
 }
 
 .team-container .team-list-box .team-box-content .team-user-avatar .team-user-avatar-image{
@@ -38,16 +38,14 @@
 }
 
 
-.team-container .team-list-box  .team-text-content{
-    display: block;
-}
-
 .team-container .team-list-box .team-text-content .team-text-heading{
     font-size: 20px;
     text-align: center;
     align-items: center;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
+    color: black;
+    margin: 5px 0px 5px 0px ;
 }
 
 .team-container .team-list-box .team-box-content .team-text-content .team-text{
@@ -55,6 +53,8 @@
     text-align: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
+    color: black;
+    margin: 5px 0px 5px 0px ;
 }
 
 

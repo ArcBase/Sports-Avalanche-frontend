@@ -12,13 +12,15 @@ function Header() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
   return (
     <animated.div style={props}>
-      <div className="openingBox">
-        <p className="openingHead">Welcome to sports Avalanche</p>
-        <p className="openingText">
+      <div className="openingBox2">
+        <p className="openingHead2">Welcome to sports Avalanche</p>
+        <p className="openingText2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et
         </p>
-        <button className="openingButton">Get Started</button>
+        <div className="openingButton-box">
+          <a className="openingButton2">Get Started</a>
+          </div>
       </div>
     </animated.div>
   );
@@ -164,7 +166,7 @@ export default function theMain() {
   return (
     <>
       <NavigationBar />
-      <div className="headerBox">
+      <div className="headerBox2">
         <div className="shiftBox">
           <div className="page-grid">
             <div className="left">
@@ -180,7 +182,7 @@ export default function theMain() {
         <div className="boxHeight">
           <div className="page-grid">
             <div className="left">
-              <h3 className="h3text">Who Are We</h3>
+              <h3 className="h3text">What We Do</h3>
               <p className="pText">
                 Sports Avalanche Ltd is a Nigerian sports technology start up
                 with a diverse team of a Lawyer, a UEFA Accredited sports
@@ -188,12 +190,7 @@ export default function theMain() {
                 seasoned Business advisors. We are focused on providing digital
                 solutions to the various problems’ sports enthusiasts face
                 across Africa and the world at large. Our flagship product Ball
-                Hive is an app created for Football players who are either
-                professionals or aspiring professionals, coaches and scouts. The
-                goal is to facilitate scouting by giving scouts access to a
-                large database of talented players, and give players a platform
-                to track their performance, showcase their talents and access
-                exclusive trials across the globe
+              
               </p>
             </div>
             <div className="right"></div>
@@ -201,13 +198,65 @@ export default function theMain() {
         </div>
       </div>
 
+
+
+
+      <div className="fitter">
+        <div className="boxHeight">
+          <div className="page-grid">
+            <div className="left">
+              
+            </div>
+            <div className="right">
+            <h3 className="h3text">Our Mission</h3>
+              <p className="pText">
+                Sports Avalanche Ltd is a Nigerian sports technology start up
+                with a diverse team of a Lawyer, a UEFA Accredited sports
+                journalist, Software developers, Interface designers and
+                seasoned Business advisors. We are focused on providing digital
+                solutions to the various problems’ sports enthusiasts face
+                across Africa and the world at large. Our flagship product Ball
+              
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div className="fitter">
+        <div className="boxHeight">
+          <div className="page-grid">
+            <div className="left">
+            <h3 className="h3text">Our Vision</h3>
+              <p className="pText">
+                Thousands of aspiring football professionals do not go pro and
+                are never able to harness their full potential. This is due to a
+                plethora of reasons. First, there is an over reliance on
+                intermediaries because players have no tailor made platform to
+                directly put their talents on display, track their performances
+                and network with people within the footballing industry. The
+                second problem is the lack of funding, which makes players miss
+                out on trial opportunities globally. This is as a result of the
+                high financial risks involved in aimless travel to chase
+
+              </p>
+            </div>
+            <div className="right">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div className="fitter">
         <div className="boxHeight">
           <>
             <div className="centerText-section">
               <div className="centerText-field">
                 <div className="centerText-container">
-                  <h3 className="centerText-container-header">Who are we</h3>
+                  <h3 className="centerText-container-header">Our Values</h3>
                   <p className="centerText-container-text">
                     When you combine human excellence, expertise and technology,
                     this is what you get.
@@ -223,46 +272,21 @@ export default function theMain() {
         </div>
       </div>
 
-      <div className="fitter">
-        <div className="boxHeight">
-          <div className="page-grid">
-            <div className="left"></div>
-            <div className="right">
-              <h3 className="h3text">WHY DO WE DO IT</h3>
-              <p className="pText">
-                Thousands of aspiring football professionals do not go pro and
-                are never able to harness their full potential. This is due to a
-                plethora of reasons. First, there is an over reliance on
-                intermediaries because players have no tailor made platform to
-                directly put their talents on display, track their performances
-                and network with people within the footballing industry. The
-                second problem is the lack of funding, which makes players miss
-                out on trial opportunities globally. This is as a result of the
-                high financial risks involved in aimless travel to chase
-                opportunities without guarantees of fair processes, or prior
-                physical or digital contact with player profiles. With a
-                passionate and dedicated team, we’re looking to change the
-                status quo by providing a mobile platform for football players,
-                to enable them track their performances, connect with scouts,
-                and gain access to investment opportunities.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="">
         <div className="signUp-section">
-          <div className="signUp-field">
-            <div className="signUp-container">
-              <h3 className="signUp-container-header">
-                Sports Avalanche
-              </h3>
-              <a href="/vendor-signup">
-                <button className="signUp-button">Get started</button>
-              </a>
+        <div className="centerText-section2">
+              <div className="centerText-field">
+                <div className="centerText-container">
+                  <h3 className="centerText-container-header">Our Values</h3>
+                  <p className="centerText-container-text">
+                    When you combine human excellence, expertise and technology,
+                    this is what you get.
+                  </p>
+                 
+                </div>
+              </div>
             </div>
-          </div>
         </div>
       </div>
 

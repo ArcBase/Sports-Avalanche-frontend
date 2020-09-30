@@ -12,11 +12,12 @@ export default function NavigationBar(){
         </div>
         <ul className="nav-links">
             <li>
-                <Link href="../index">
+                <Link href="../">
                 <a>Home</a>
                 </Link>
             </li>
             <li>
+           
                 <Link href="../sections/team">
                 <a>Our Team</a>
                 </Link>

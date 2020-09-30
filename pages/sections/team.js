@@ -40,12 +40,101 @@ const stagger = {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et
           </p>
-          <button className="openingButton">Get Started</button>
+          <div className="openingButton-box">
+          <a className="openingButton">Get Started</a>
+          </div>
+          
         </div>
       </animated.div>
     );
   }
   
+function TeamSections(){
+    const potraitPic = 'https://www.duckerfrontier.com/wp-content/uploads/2019/01/Chris-Fisher225x225.png'
+    return(
+      <>
+          <div className="">
+            <ul className="team-container">
+                <li className="team-list-box">
+                    <div className="team-box-content">
+                        <div className="team-user-avatar">
+                          <img 
+                          src={potraitPic}
+                          className="team-user-avatar-image" />
+                        </div>
+                        <div className="team-text-content">
+                          <p className="team-text-heading">
+                            Software Engineer
+                          </p>
+                          <p className="team-text">
+                            Jane Doe
+                          </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li className="team-list-box">
+                    <div className="team-box-content">
+                        <div className="team-user-avatar">
+                          <img 
+                          src={potraitPic}
+                          className="team-user-avatar-image" />
+                        </div>
+                        <div className="team-text-content">
+                          <p className="team-text-heading">
+                            Software Engineer
+                          </p>
+                          <p className="team-text">
+                            Jane Doe
+                          </p>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="team-list-box">
+                    <div className="team-box-content">
+                        <div className="team-user-avatar">
+                          <img 
+                          src={potraitPic}
+                          className="team-user-avatar-image" />
+                        </div>
+                        <div className="team-text-content">
+                          <p className="team-text-heading">
+                            Software Engineer
+                          </p>
+                          <p className="team-text">
+                            Jane Doe
+                          </p>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="team-list-box">
+                    <div className="team-box-content">
+                        <div className="team-user-avatar">
+                          <img 
+                          src={potraitPic}
+                          className="team-user-avatar-image" />
+                        </div>
+                        <div className="team-text-content">
+                          <p className="team-text-heading">
+                            Software Engineer
+                          </p>
+                          <p className="team-text">
+                            Jane Doe
+                          </p>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+          </div>
+      </>
+    )
+}
+
 const instagramIcon = 'https://cdn.iconscout.com/icon/premium/png-64-thumb/instagram-1805197-1532288.png'
 const linkedInicon = 'https://cdn.iconscout.com/icon/free/png-64/linkedin-1464529-1239440.png'
 const twitterIcon = 'https://cdn.iconscout.com/icon/free/png-64/twitter-1464537-1239448.png'
@@ -132,6 +221,7 @@ export default function TeamPage(){
                 seasoned Business advisors. We are focused on providing digital
                                 </p>
                                 <div className="startUpTeam-box-socials">
+                              
                                 <div className="startUpTeam-box-socials-image-content">
                                   <img src={instagramIcon} className="startUpTeam-box-socials-image" />
                                 </div>
@@ -152,43 +242,7 @@ export default function TeamPage(){
                     </li>
                     </motion.div>
                     
-                    <motion.div variants={fadeInUp}>
-                
-                <li className="startUpTeam-list">
-                    <div className="startUpTeam-box">
-                        <div className="startUpTeam-image-box">
-                        <img  src={potrait} className="startUpTeam-image" />
-                        </div>
-
-                        <div className="startUpTeam-box-text-content">
-                            <p className="startUpTeam-box-heading">
-                                Dummy
-                            </p>
-                            <p className="startUpTeam-box-text">
-                            Sports Avalanche Ltd is a Nigerian sports technology start up
-            with a diverse team of a Lawyer, a UEFA Accredited sports
-            journalist, Software developers, Interface designers and
-            seasoned Business advisors. We are focused on providing digital
-                            </p>
-                            <div className="startUpTeam-box-socials">
-                                <div className="startUpTeam-box-socials-image-content">
-                                  <img src={instagramIcon} className="startUpTeam-box-socials-image" />
-                                </div>
-
-                                <div className="startUpTeam-box-socials-image-content">
-                                  <img src={linkedInicon} className="startUpTeam-box-socials-image" />
-                                </div>
-                                
-                                <div className="startUpTeam-box-socials-image-content">
-                                  <img src={twitterIcon} className="startUpTeam-box-socials-image" />
-                                </div>
-
-                                
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                </motion.div>
+                   
 
                 <motion.div variants={fadeInUp}>
                 
@@ -233,6 +287,9 @@ export default function TeamPage(){
         </motion.div>
         </div>
 
+        <div className="team-container-fit">
+          <TeamSections/>
+        </div>
 
         <FooterSection/>
         </>

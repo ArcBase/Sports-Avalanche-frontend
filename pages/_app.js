@@ -1,4 +1,4 @@
-import '../assets/generalStyles.css'
+import '../assets/Avalanche.css'
 import '../assets/pageSections.css'
 import '../assets/generals.css'
 import '../assets/team.css'

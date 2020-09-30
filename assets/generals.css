@@ -104,16 +104,64 @@
 
 /* Center Text heading ends here */
 
-/* Regitser Now */
+/* Center Heading Text */
 
-.signUp-section{
+.centerText-section2{
     display: grid;
     grid-gap: 20px;
     padding: 0;
     list-style: none;
+     
+}
+
+.centerText-section2 .centerText-field{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-size: 1.1rem;
     
-    background: linear-gradient(45deg, rgba(45, 228, 54, 0.9) 0%, rgba(64, 62, 66, 0.9) 100%), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1156&q=80') center center no-repeat;
-    background-color: rgb(7, 107, 7);
+}
+
+.centerText-section2 .centerText-field .centerText-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+   padding: 100px;
+    
+    
+}
+.centerText-section2 .centerText-field .centerText-container-header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;;
+}
+
+.centerText-section2 .centerText-field .centerText-container-text{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;;
+}
+
+
+/* Regitser Now */
+
+.signUp-section{
+    padding: 0;
+    list-style: none;
+    height: 50vh;
+    background:  url('https://a.slack-edge.com/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png') center center no-repeat;
+    background-color: rgb(15, 161, 15);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
@@ -130,10 +178,7 @@
 }
 
 .signUp-section .signUp-field .signUp-container{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    
     display: flex;
     flex-direction: column;
     -webkit-box-align: center;
