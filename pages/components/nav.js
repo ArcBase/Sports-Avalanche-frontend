@@ -12,7 +12,7 @@ export default function NavigationBar(){
         </div>
         <ul className="nav-links">
             <li>
-                <Link href="../index.js">
+                <Link href="../index">
                 <a>Home</a>
                 </Link>
             </li>
