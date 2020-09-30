@@ -12,8 +12,8 @@ export default function NavigationBar(){
         </div>
         <ul className="nav-links">
             <li>
-                <Link href="../sections/products">
-                <a>What We Do</a>
+                <Link href="../index.js">
+                <a>Home</a>
                 </Link>
             </li>
             <li>
