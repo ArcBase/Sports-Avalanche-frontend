@@ -13,7 +13,7 @@ function Header() {
   return (
     <animated.div style={props}>
       <div className="openingBox2">
-        <p className="openingHead2">Welcome to sports Avalanche</p>
+        <p className="openingHead2">Welcome to Sports Avalanche</p>
         <p className="openingText2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et
@@ -278,7 +278,7 @@ export default function theMain() {
         <div className="centerText-section2">
               <div className="centerText-field">
                 <div className="centerText-container">
-                  <h3 className="centerText-container-header">Our Values</h3>
+                  <h3 className="centerText-container-header">Our Products</h3>
                   <p className="centerText-container-text">
                     When you combine human excellence, expertise and technology,
                     this is what you get.

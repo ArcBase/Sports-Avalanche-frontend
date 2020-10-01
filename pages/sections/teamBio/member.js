@@ -5,10 +5,8 @@ import FooterSection from "../../components/footer";
 
 export default function Memberbio(){
     return(
-        <>
-
-            
-
+        <>  
+    
         </>
     )   
 }

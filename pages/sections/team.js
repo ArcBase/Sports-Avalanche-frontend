@@ -1,5 +1,7 @@
+import React,{useState} from 'react'
 import { motion } from "framer-motion";
 import NavigationBar from '../components/nav'
+
 import { useSpring, useTransition, animated, config } from "react-spring";
 
 import FooterSection from "../components/footer";
@@ -92,24 +94,7 @@ function TeamSections(){
                 </li>
 
 
-                <li className="team-list-box">
-                    <div className="team-box-content">
-                        <div className="team-user-avatar">
-                          <img 
-                          src={potraitPic}
-                          className="team-user-avatar-image" />
-                        </div>
-                        <div className="team-text-content">
-                          <p className="team-text-heading">
-                            Software Engineer
-                          </p>
-                          <p className="team-text">
-                            Jane Doe
-                          </p>
-                        </div>
-                    </div>
-                </li>
-
+    
 
                 <li className="team-list-box">
                     <div className="team-box-content">
@@ -144,7 +129,8 @@ export default function TeamPage(){
     return(
         <>
          <NavigationBar />
-       
+ 
+
         <div className="teamBox">
         <div className="shiftBox">
           <div className="page-grid">
@@ -159,6 +145,19 @@ export default function TeamPage(){
 
 
         <div className='fitter'>
+                
+
+         <div className="centerText-section">
+              <div className="centerText-field">
+                <div className="centerText-container">
+                  <h3 className="centerText-container-header ">Our Team</h3>
+                  <p className="centerText-container-text">
+                    
+                  
+                  </p>
+                </div>
+              </div>
+            </div>
         <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
         <div className="startUpTeam-section">
               <ul className="startUpTeam-container">

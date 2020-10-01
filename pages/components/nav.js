@@ -6,10 +6,12 @@ export default function NavigationBar(){
 
 <nav>
         <div className="hamburger">
-            <div className="line"></div>
+         
             <div className="line"></div>
             <div className="line"></div>
         </div>
+
+    
         <ul className="nav-links">
             <li>
                 <Link href="../">
@@ -22,7 +24,10 @@ export default function NavigationBar(){
                 <a>Our Team</a>
                 </Link>
             </li>
-            <li><a href="#">Product</a></li>
+            <Link href="../sections/ballHive">
+            <li><a >Product</a></li>
+            </Link>
+            
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>

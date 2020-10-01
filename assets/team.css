@@ -9,7 +9,7 @@
 .team-container{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     max-width: 1004px;
 }
  
@@ -121,13 +121,13 @@
 
 .startUpTeam-container .startUpTeam-list .startUpTeam-box .startUpTeam-box-text-content .startUpTeam-box-heading{
     font-size: 25px;
-    font-weight: 200;
+    font-weight: bold;
     color: black;
     text-align: left;
 }
 
 .startUpTeam-container .startUpTeam-list .startUpTeam-box .startUpTeam-box-text-content .startUpTeam-box-text{
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 200;
     color: black;
     text-align: left;
@@ -148,7 +148,7 @@
 }
 
 .startUpTeam-box-socials .startUpTeam-box-socials-image-content .startUpTeam-box-socials-image{
-    height: 40px;
+    height: 25px;
 }
 
 /*  */
