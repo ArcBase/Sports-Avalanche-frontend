@@ -206,16 +206,8 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
   
-  .page-grid .left .pText{
-    font-size: 17px;
-    color:black;
-    text-align: left;
-    /* margin-bottom: 20px; */
-    padding-left: 0px;
-    font-family: "Poppins", sans-serif;
-   
-  }
   .page-grid .left .custom-button{
     margin-top: 20px;
     padding:20px;
@@ -248,20 +240,12 @@
     margin-bottom: 20px;
   }
   
-  .page-grid .right .pText{
-    font-size: 17px;
 
-    color:black;
-    text-align: left;
-    /* margin-bottom: 20px; */
-    font-family: "Poppins", sans-serif;
-   
-  }
   
   .pText{
     font-size: 19px;
     
-    color:black;
+    color: #243893;
     text-align: left;
     /* margin-bottom: 20px; */
     padding-left: 0px;

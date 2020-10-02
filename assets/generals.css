@@ -159,7 +159,7 @@
 .signUp-section{
     padding: 0;
     list-style: none;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
     background:  url('https://a.slack-edge.com/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png') center center no-repeat;
     background-color: rgb(15, 161, 15);
     background-position: center; /* Center the image */

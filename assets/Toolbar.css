@@ -7,6 +7,7 @@
   height: 76px;
   box-shadow: 0px 1px 6px rgba(215, 215, 215, 0.5);
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 .toolbar__navigation {
@@ -56,7 +57,7 @@
 }
 
 .toolbar_navigation-items a {
-  color: rgb(0, 0, 0);
+  color: #243893;
   text-decoration: none;
   font-size: 1.1rem
 }

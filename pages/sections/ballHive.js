@@ -1,11 +1,13 @@
-import NavigationBar from "../components/nav";
+import NavbarTwo from "../components/navbar-two";
 
 export default function BallHivePage() {
   return (
     <>
-      <NavigationBar />
+      <NavbarTwo />
       <div className="fitter">
-        <div className="page-grid">
+        <div 
+        style={{'paddingTop':20}}
+        className="page-grid">
           <div className="left">
             <p className="h3text">Ball Hive</p>
             <p className="pText">
