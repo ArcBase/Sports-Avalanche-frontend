@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useSpring, useTransition, animated, config } from "react-spring";
 // import { Frame, Scroll } from "framer"
 import { motion } from "framer-motion";
-
 // import TeamPage from "./sections/team";
 
 import FooterSection from "./components/footer";
 import NavigationBar from "./components/nav";
+
+import NavbarTwo from './components/navbar-two'
+
 
 function Header() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
@@ -165,7 +167,7 @@ export default function theMain() {
 
   return (
     <>
-      <NavigationBar />
+      <NavbarTwo />
       <div className="headerBox2">
         <div className="shiftBox">
           <div className="page-grid">

@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "axios": "^0.20.0",
     "framer": "^1.2.7",
     "framer-motion": "^2.7.5",
