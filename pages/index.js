@@ -1,30 +1,28 @@
 import React, { useState, useEffect } from "react";
 import { useSpring, useTransition, animated, config } from "react-spring";
-// import { Frame, Scroll } from "framer"
+
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
+import { Fade, Flip, Slide , Reveal  } from "react-reveal";
 
 import FooterSection from "./components/footer";
-import NavigationBar from "./components/nav";
 
-import NavbarTwo from './components/navbar-two'
-
+import NavbarTwo from "./components/navbar-two";
 
 function Header() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
   return (
-    <animated.div style={props}>
+    <Fade bottom>
       <div className="openingBox2">
-        <p className="openingHead2">Welcome to Sports Avalanche</p>
+        <p className="openingHead2">Sports Avalanche</p>
         <p className="openingText2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et
+          Solving Problems in Sports with Innovative tech solution
         </p>
         <div className="openingButton-box">
           <a className="openingButton2">Get Started</a>
-          </div>
+        </div>
       </div>
-    </animated.div>
+    </Fade>
   );
 }
 
@@ -42,96 +40,63 @@ const BriefingSection = () => {
   return (
     <ul className="displayBoxes-box">
       <li className="displayBoxes-list">
-        <div className="displayBoxes-text-content">
-          <div className="displayBoxes-icon">
-            <motion.div
-              className="img"
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-            >
-              <motion.img
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 200, opacity: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: 0.2 }}
-                src={Icon1}
-                className="displayBoxes-icon-image"
-              />
-            </motion.div>
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon1} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Transperency</p>
+            <p className="displayBoxes-text">
+              We believe in an open and purely merit based system of talent
+              evaluation.
+            </p>
           </div>
-          <p className="displayBoxes-heading">Lorem</p>
-          <p className="displayBoxes-text">{brieftText}</p>
-        </div>
+        </Flip>
+      </li>
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              Our team is passionate and committed to creating better outcomes
+              for sports professionals globally through the use of technology
+              and innovation.
+            </p>
+          </div>
+        </Flip>
       </li>
 
       <li className="displayBoxes-list">
-        <div className="displayBoxes-text-content">
-          <div className="displayBoxes-icon">
-            <motion.div
-              className="img"
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-            >
-              <motion.img
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 200, opacity: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: 0.2 }}
-                src={Icon2}
-                className="displayBoxes-icon-image"
-              />
-            </motion.div>
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Democratization</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
           </div>
-          <p className="displayBoxes-heading">Lorem</p>
-          <p className="displayBoxes-text">{brieftText}</p>
-        </div>
+        </Flip>
       </li>
 
       <li className="displayBoxes-list">
-        <div className="displayBoxes-text-content">
-          <div className="displayBoxes-icon">
-            <motion.div
-              className="img"
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-            >
-              <motion.img
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 200, opacity: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: 0.2 }}
-                src={Icon3}
-                className="displayBoxes-icon-image"
-              />
-            </motion.div>
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
           </div>
-          <p className="displayBoxes-heading">Lorem</p>
-          <p className="displayBoxes-text">{brieftText}</p>
-        </div>
-      </li>
-
-      <li className="displayBoxes-list">
-        <div className="displayBoxes-text-content">
-          <div className="displayBoxes-icon">
-          <motion.div
-              className="img"
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-            >
-              <motion.img
-                animate={{ x: 0, opacity: 1 }}
-                initial={{ x: 200, opacity: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ delay: 0.2 }}
-                src={Icon3}
-                src={Icon4} className="displayBoxes-icon-image"
-              />
-            </motion.div>
-          
-          </div>
-          <p className="displayBoxes-heading">Lorem</p>
-          <p className="displayBoxes-text">{brieftText}</p>
-        </div>
+        </Flip>
       </li>
     </ul>
   );
@@ -164,7 +129,6 @@ const ImageTransition = () => {
 export default function theMain() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
 
-
   return (
     <>
       <NavbarTwo />
@@ -183,87 +147,73 @@ export default function theMain() {
       <div className="fitter">
         <div className="boxHeight">
           <div className="page-grid">
-            <div className="left">
-              <h3 className="h3text">What We Do</h3>
-              <p className="pText">
-                Sports Avalanche Ltd is a Nigerian sports technology start up
-                with a diverse team of a Lawyer, a UEFA Accredited sports
-                journalist, Software developers, Interface designers and
-                seasoned Business advisors. We are focused on providing digital
-                solutions to the various problems’ sports enthusiasts face
-                across Africa and the world at large. Our flagship product Ball
-              
-              </p>
-            </div>
+            <Fade left>
+              <div className="left">
+                <h3 className="h3text">What We Do</h3>
+                <p className="pText">
+                  Sports Avalanche Ltd is a Nigerian sports technology start up
+                  with a diverse team of a Lawyer, a UEFA Accredited sports
+                  journalist, Software developers, Interface designers and
+                  seasoned Business advisors. We are focused on providing
+                  digital solutions to the various problems’ sports enthusiasts
+                  face across Africa and the world at large. Our flagship
+                  product Ball
+                </p>
+              </div>
+            </Fade>
             <div className="right"></div>
           </div>
         </div>
       </div>
 
-
-
-
       <div className="fitter">
         <div className="boxHeight">
           <div className="page-grid">
-            <div className="left">
-              
-            </div>
-            <div className="right">
-            <h3 className="h3text">Our Mission</h3>
-              <p className="pText">
-                Sports Avalanche Ltd is a Nigerian sports technology start up
-                with a diverse team of a Lawyer, a UEFA Accredited sports
-                journalist, Software developers, Interface designers and
-                seasoned Business advisors. We are focused on providing digital
-                solutions to the various problems’ sports enthusiasts face
-                across Africa and the world at large. Our flagship product Ball
-              
-              </p>
-            </div>
+            <div className="left"></div>
+            <Fade right>
+              <div className="right">
+                <h3 className="h3text">Our Vision</h3>
+                <p className="pText">
+                To be the number one database of both unprofessional and professional football talents 
+                globally and become the premier investment platform for footballers
+                </p>
+              </div>
+            </Fade>
           </div>
         </div>
       </div>
 
-    
       <div className="fitter">
         <div className="boxHeight">
           <div className="page-grid">
-            <div className="left">
-            <h3 className="h3text">Our Vision</h3>
-              <p className="pText">
-                Thousands of aspiring football professionals do not go pro and
-                are never able to harness their full potential. This is due to a
-                plethora of reasons. First, there is an over reliance on
-                intermediaries because players have no tailor made platform to
-                directly put their talents on display, track their performances
-                and network with people within the footballing industry. The
-                second problem is the lack of funding, which makes players miss
-                out on trial opportunities globally. This is as a result of the
-                high financial risks involved in aimless travel to chase
-
-              </p>
-            </div>
-            <div className="right">
-              
-            </div>
+            <Fade left>
+              <div className="left">
+                <h3 className="h3text">Our Mission</h3>
+                <p className="pText">
+                To be the number one database of both unprofessional and professional 
+                football talents globally and become the premier investment platform for footballers
+                </p>
+              </div>
+            </Fade>
+            <div className="right"></div>
           </div>
         </div>
       </div>
-
 
       <div className="fitter">
         <div className="boxHeight">
           <>
             <div className="centerText-section">
               <div className="centerText-field">
-                <div className="centerText-container">
-                  <h3 className="centerText-container-header">Our Values</h3>
-                  <p className="centerText-container-text">
-                    When you combine human excellence, expertise and technology,
-                    this is what you get.
-                  </p>
-                </div>
+                <Flip left>
+                  <div className="centerText-container">
+                    <h3 className="centerText-container-header">Our Values</h3>
+                    <p className="centerText-container-text">
+                      When you combine human excellence, expertise and
+                      technology, this is what you get.
+                    </p>
+                  </div>
+                </Flip>
               </div>
             </div>
           </>
@@ -274,43 +224,26 @@ export default function theMain() {
         </div>
       </div>
 
-
       <div className="">
         <div className="signUp-section">
-        <div className="centerText-section2">
-              <div className="centerText-field">
-                <div className="centerText-container">
-                  <h3 className="centerText-container-header">Our Products</h3>
-                  <p className="centerText-container-text">
-                    When you combine human excellence, expertise and technology,
-                    this is what you get.
-                  </p>
+          <div className="centerText-section2">
+            
+            <div className="centerText-field">
+              <div className="centerText-container">
+              <Reveal effect="fadeInUp">
+                <h3 className="centerText-container-header">Our Product</h3>
+                <p className="centerText-container-text">
+                  Connectiing aspiring football professionals to global
+                  opportunitiess
+                </p>
 
-                  <a className="extra-button">
-                  Our Product
-                  </a>
-                  
-                </div>
+                <a className="extra-button">Ball Hive</a>
+                </Reveal>
               </div>
             </div>
-        </div>
-      </div>
-
-     
-
-      <div className="fitter">
-        <div className="page-grid">
-          <div className="left">
-            <h3 className="h3text">Lorem Ipsum</h3>
-            <p className="pText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore
-            </p>
+          
+            
           </div>
-          <div className="right"></div>
         </div>
       </div>
 

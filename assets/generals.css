@@ -104,7 +104,7 @@
 
 /* Center Text heading ends here */
 
-/* Center Heading Text */
+/* Center Heading Text 2 */
 
 .centerText-section2{
     display: grid;
@@ -137,16 +137,16 @@
     
 }
 .centerText-section2 .centerText-field .centerText-container-header{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+
     color: white;
     font-family: sans-serif;;
 }
 
 .centerText-section2 .centerText-field .centerText-container-text{
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
     padding: 10px;
     color: white;
@@ -159,7 +159,7 @@
 .signUp-section{
     padding: 0;
     list-style: none;
-    height: 50vh;
+    margin: 0px 0px 20px 0px;
     background:  url('https://a.slack-edge.com/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png') center center no-repeat;
     background-color: rgb(15, 161, 15);
     background-position: center; /* Center the image */
@@ -205,22 +205,15 @@
 }
 
 .extra-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    cursor: pointer;
+
     border-radius: 4px;
     text-align: center;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    font-weight: 700;
-    line-height: 1.28571429;
-    letter-spacing: .8px;
-    font-size: 16px;
-    text-transform: uppercase;
     text-decoration: none;
-    padding: 19px 40px 20px;
-    width: 100%;
+    padding:  20px;
+    width: 200px;
+    color:green;
+    background-color: white;
 
 }
  .signUp-button {

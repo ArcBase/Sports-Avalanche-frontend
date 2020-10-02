@@ -3,6 +3,7 @@ import NavbarTwo from "../../../navbar-two";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 // import axios from "axios";
 // import { connect } from "react-redux";
+import Link from "next/link";
 
 class Toolbar extends Component {
   render() {
@@ -19,16 +20,24 @@ class Toolbar extends Component {
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
-              <li className="nav-it">
-                <a href="/categories/electronics/">MarketPlace</a>
-              </li>
-              <li className="nav-it">
-                <a href="/">Team</a>
-              </li>
-              <li className="nav-it">
-                <a href="/">Our Product</a>
-              </li>
 
+              <Link href="../">
+              <li className="nav-it">
+                <a >Home</a>
+              </li>
+              </Link>
+
+              <Link href="../sections/team">
+              <li className="nav-it">
+                <a >Team</a>
+              </li>
+              </Link>
+      
+              <Link href="../sections/ballHive">
+              <li className="nav-it-2">
+                <a >Our Product</a>
+              </li>
+              </Link>
               
             </ul>
           </div>
