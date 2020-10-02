@@ -25,7 +25,7 @@ class Toolbar extends Component {
               <li className="nav-it">
                 <a href="/">Team</a>
               </li>
-              <li className="custom-button">
+              <li className="nav-it">
                 <a href="/">Our Product</a>
               </li>
 
