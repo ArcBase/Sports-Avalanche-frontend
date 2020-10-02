@@ -4,6 +4,8 @@ import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 // import axios from "axios";
 // import { connect } from "react-redux";
 import Link from "next/link";
+// import Logo from '../../../../../assets/img/logo.png'
+
 
 class Toolbar extends Component {
   render() {
@@ -14,7 +16,10 @@ class Toolbar extends Component {
         <nav className="toolbar__navigation">
           <div className="toolbar__logo">
             <a href="/">
-              {/* <img className="logo" src={Logo} alt="logo" /> */}
+            <img className="logo"
+             src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png' 
+            alt="logo" /> 
+              {/* */}
             </a>
           </div>
           <div className="spacer" />

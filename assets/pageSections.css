@@ -14,7 +14,7 @@
 .headerBox2{
     height: 100vh;
     background-color: rgb(255, 255, 255);
-    background: linear-gradient(45deg, rgba(37, 143, 23, 0.959) 0%, rgba(135, 250, 112, 0.795) 100%), url('https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Earth+Green.png') center center no-repeat;
+    background: linear-gradient(45deg, rgba(32, 99, 23, 0.959) 0%, rgba(47, 184, 20, 0.795) 100%), url('https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Earth+Green.png') center center no-repeat;
     background-size: cover;
 
 }

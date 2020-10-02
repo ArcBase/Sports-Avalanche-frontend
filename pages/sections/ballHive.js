@@ -31,7 +31,7 @@ export default function BallHivePage() {
 
           <div className="right">
             <div className="page-grid-image-container">
-              <img src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Table.png'
+              <img src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Preview+1.png'
                className="page-grid-image" />
             </div>
           </div>

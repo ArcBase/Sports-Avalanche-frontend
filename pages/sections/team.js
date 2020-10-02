@@ -159,20 +159,7 @@ export default function TeamPage() {
                       where he served as an assistant lecturer. While doing his
                       LLB, he was an active member of the UNICAL Debating club,
                       where he honed his critical thinking and leadership
-                      skills. In 5 years of competitive debating, he
-                      participated in over 35 tournaments across the globe.
-                      Prominent amongst them are the Harvard Invitational held
-                      in Boston, the HWS IV in New York and several tournaments
-                      across Africa including the Pan African Championships held
-                      in Ghana. He has won 12 debating trophies, the most by any
-                      African speaker in history. He is passionate about sports
-                      and began football punditry in high school making a few
-                      appearances on Cross River Broadcasting Corporation (CRBC)
-                      TV along the line. Ball Hive is a project dear to his
-                      heart, it is a project through which he expects to have a
-                      concrete platform to help sports enthusiasts benefit from
-                      innovation, and generally democratize access to
-                      opportunities in the industry
+                      skills.
                     </p>
                     <div className="startUpTeam-box-socials">
                       <div className="startUpTeam-box-socials-image-content">

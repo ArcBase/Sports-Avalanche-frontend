@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSpring, useTransition, animated, config } from "react-spring";
 
-import Link from "next/link";
 
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
@@ -239,11 +238,7 @@ export default function theMain() {
                   opportunitiess
                 </p>
 
-               <Link href="../sections/ballHive">
-               <div >
-               <a className="extra-button">Ball Hive</a>
-               </div >
-               </Link>
+                <a className="extra-button">Ball Hive</a>
                 </Reveal>
               </div>
             </div>

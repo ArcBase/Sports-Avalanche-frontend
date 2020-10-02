@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.logo{
+  height: 40px;
+}
+
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
