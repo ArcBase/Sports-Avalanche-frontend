@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useSpring, useTransition, animated, config } from "react-spring";
 
+import Link from "next/link";
+
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
 import { Fade, Flip, Slide , Reveal  } from "react-reveal";
@@ -237,7 +239,11 @@ export default function theMain() {
                   opportunitiess
                 </p>
 
-                <a className="extra-button">Ball Hive</a>
+               <Link href="../sections/ballHive">
+               <div >
+               <a className="extra-button">Ball Hive</a>
+               </div >
+               </Link>
                 </Reveal>
               </div>
             </div>

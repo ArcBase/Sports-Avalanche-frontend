@@ -1,5 +1,10 @@
 import NavbarTwo from "../components/navbar-two";
 
+function header(){
+  const bg = 'https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/20a1c575967065.5c5baa79c7ccc.png'
+
+}
+
 export default function BallHivePage() {
   return (
     <>
@@ -20,20 +25,13 @@ export default function BallHivePage() {
               players, coaches and scouts. The app also allows users document
               tournament data by allowing participants of tournaments create
               competitions and upload data about best performances and
-              tournament highlight reels. The platform extends to Football
-              Academies, allowed to open official pages with room to upload data
-              about their players and their collective activities, to attempt to
-              simplify performance tracking. Scouts have exclusive pages, where
-              they are provided exclusive access to periodic reports about
-              special talents in various locations of interests and have the
-              ability to reach out directly to players after studying their
-              profiles to interact with them and possibly invite them to trials.
+
             </p>
           </div>
 
           <div className="right">
             <div className="page-grid-image-container">
-              <img src='https://cdn.dribbble.com/users/1640722/screenshots/10198315/media/94791d8e3b4ade2e083d0935aefa02fc.png'
+              <img src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Table.png'
                className="page-grid-image" />
             </div>
           </div>
@@ -46,7 +44,7 @@ export default function BallHivePage() {
               <div className="left">
               
               <div className="page-grid-image-container">
-              <img src="https://cdn.dribbble.com/users/1640722/screenshots/10215836/media/2f845f46354e5174d6a1f9bdb47c71f9.png"
+              <img src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Preview+1.png'
                className="page-grid-image" />
             </div>
               </div>
