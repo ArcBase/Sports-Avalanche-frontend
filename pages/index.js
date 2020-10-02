@@ -238,7 +238,9 @@ export default function theMain() {
                   opportunitiess
                 </p>
 
-                <a className="extra-button">Ball Hive</a>
+                <a
+                href="./sections/ballHive"
+                className="extra-button">Ball Hive</a>
                 </Reveal>
               </div>
             </div>
