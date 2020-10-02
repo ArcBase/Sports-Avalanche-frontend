@@ -9,12 +9,9 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
         
-        <li className="side-nav-item"><a href="/">MarketPlace</a></li>
-            <li className="side-nav-item"><a href="/">Sell on excite</a></li>
-            <li className="side-nav-item"><a href="/">Dashboard</a></li>
-            <li className="side-nav-item"><a href="/">Login</a></li>
-            <li className="side-nav-item"><a href="/">Register</a></li>
-        <li><button className="navbar-button">Get started on Excite</button></li>
+        <li className="side-nav-item"><a href="/">Home</a></li>
+            <li className="side-nav-item"><a href="/">Team</a></li>
+        <li><a className="side-nav-item">Our Product</a></li>
       </ul>
     </nav>
   );

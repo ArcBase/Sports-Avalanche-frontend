@@ -23,8 +23,13 @@ class Toolbar extends Component {
                 <a href="/categories/electronics/">MarketPlace</a>
               </li>
               <li className="nav-it">
-                <a href="/">Se</a>
+                <a href="/">Team</a>
               </li>
+              <li className="custom-button">
+                <a href="/">Our Product</a>
+              </li>
+
+              
             </ul>
           </div>
           <div className="toolbar__toggle-button">
