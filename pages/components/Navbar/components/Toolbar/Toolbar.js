@@ -6,7 +6,6 @@ import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import Link from "next/link";
 // import Logo from '../../../../../assets/img/logo.png'
 
-
 class Toolbar extends Component {
   render() {
     const { token, isAuth } = this.props;
@@ -14,36 +13,41 @@ class Toolbar extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar__navigation">
-          <div className="toolbar__logo">
+          {/* <div className="toolbar__logo">
             <a href="/">
-            <img className="logo"
-             src='https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png' 
-            alt="logo" /> 
-              {/* */}
+              <img
+                className="logo"
+                src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png"
+                alt="logo"
+              />
+             
+              
             </a>
-          </div>
+            SPORTS AVALANCHE
+          </div> */}
+          <h1 className="logo-text">
+          SPORT
+          </h1>
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
-
               <Link href="../">
-              <li className="nav-it">
-                <a >Home</a>
-              </li>
+                <li className="nav-it">
+                  <a>Home</a>
+                </li>
               </Link>
 
               <Link href="../sections/team">
-              <li className="nav-it">
-                <a >Team</a>
-              </li>
+                <li className="nav-it">
+                  <a>Team</a>
+                </li>
               </Link>
-      
+
               <Link href="../sections/ballHive">
-              <li className="nav-it-2">
-                <a >Our Product</a>
-              </li>
+                <li className="nav-it-2">
+                  <a>Get Scouted</a>
+                </li>
               </Link>
-              
             </ul>
           </div>
           <div className="toolbar__toggle-button">
@@ -54,4 +58,4 @@ class Toolbar extends Component {
     );
   }
 }
-export default Toolbar
+export default Toolbar;

@@ -102,12 +102,12 @@ footer{
 }
 
 .center .content .phone {
-    margin: 10px 0;
+    margin: 2rem 0;
 }
 
 .right form .text {
     font-size: 1.0625rem;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: #656565;
 }
 

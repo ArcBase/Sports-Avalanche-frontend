@@ -23,14 +23,14 @@
     text-align: center;
    padding: 10px;
    font-weight: bold;
-   color:black
+   color:rgb(255, 255, 255)
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-text{
     font-size: 14px;
     text-align: center;
    padding: 10px;
-   color: #243893
+   color: rgb(255, 255, 255)
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-icon{
@@ -63,7 +63,7 @@
     display: block;
     text-decoration: none;
     text-align: left;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     
 }
@@ -88,7 +88,7 @@
     font-weight: 400;
     text-align: center;
     padding: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;;
 }
 
@@ -96,7 +96,7 @@
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;;
 }
 
@@ -161,7 +161,7 @@
     list-style: none;
     margin: 0px 0px 0px 0px;
     background:  url('https://a.slack-edge.com/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png') center center no-repeat;
-    background-color: rgb(15, 161, 15);
+    background-color: #049444;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 

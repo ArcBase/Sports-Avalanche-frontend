@@ -1,20 +1,24 @@
 import React, { useState, useEffect } from "react";
 import { useSpring, useTransition, animated, config } from "react-spring";
 
-
 import { motion } from "framer-motion";
 // import TeamPage from "./sections/team";
-import { Fade, Flip, Slide , Reveal  } from "react-reveal";
+import { Fade, Flip, Slide, Reveal } from "react-reveal";
 
 import FooterSection from "./components/footer";
+import { FcCheckmark } from "react-icons/fc";
 
 import NavbarTwo from "./components/navbar-two";
+import PageBoxes from "./components/page-boxes";
 
 function Header() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
   return (
     <Fade bottom>
-      <div className="openingBox2">
+      <div
+        className="openingBox2"
+        // style={{}}
+      >
         <p className="openingHead2">Sports Avalanche</p>
         <p className="openingText2">
           Solving Problems in Sports with Innovative tech solution
@@ -133,33 +137,65 @@ export default function theMain() {
   return (
     <>
       <NavbarTwo />
+
       <div className="headerBox2">
         <div className="shiftBox">
-          <div className="page-grid">
-            <div className="left">
-              <Header />
-            </div>
+          <div className="page-container">
+            <div className="page-grid">
+              <div className="left">
+                <Header />
+              </div>
 
-            <div className="right"></div>
+              <div className="right"></div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="fitter">
+      <div className="page-container">
         <div className="boxHeight">
-          <div className="page-grid">
+          <div className="page-grid-b">
             <Fade left>
               <div className="left">
-                <h3 className="h3text">What We Do</h3>
+                <h3 className="h3text">PLAYERS</h3>
                 <p className="pText">
-                  Sports Avalanche Ltd is a Nigerian sports technology start up
-                  with a diverse team of a Lawyer, a UEFA Accredited sports
-                  journalist, Software developers, Interface designers and
-                  seasoned Business advisors. We are focused on providing
-                  digital solutions to the various problems’ sports enthusiasts
-                  face across Africa and the world at large. Our flagship
-                  product Ball
+                  As an aspiring football professional, we help you build and
+                  optimize your profile, upload highlight reels, track your
+                  progress and performances and we help you showcase your talent
+                  to a large network of scouts. Do you believe in your talent?
+                  Kick start your career here:
                 </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Create your profile.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Update and optimize your profile with our expert tips.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Connect directly with scouts.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Benefit from our unending pool of opportunities.{" "}
+                    </li>
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
               </div>
             </Fade>
             <div className="right"></div>
@@ -169,15 +205,44 @@ export default function theMain() {
 
       <div className="fitter">
         <div className="boxHeight">
-          <div className="page-grid">
+          <div className="page-grid-b">
             <div className="left"></div>
             <Fade right>
               <div className="right">
-                <h3 className="h3text">Our Vision</h3>
+                <h3 className="h3text">SCOUTS</h3>
                 <p className="pText">
-                To be the number one database of both unprofessional and professional football talents 
-                globally and become the premier investment platform for footballers
+                  We are leveraging on technology to improve scouting by giving
+                  scouts access to a broad and diverse database of talents. We
+                  are creating a platform for millions of talents to prove
+                  themselves to scouts.
                 </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Get access to our pool of talents and study expert reports
+                      and analytics.{" "}
+                    </li>
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Use our advance search filter to find talents that fit
+                      your requirements.
+                    </li>
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Follow/track players progress and land a talent.
+                    </li>
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
               </div>
             </Fade>
           </div>
@@ -186,14 +251,50 @@ export default function theMain() {
 
       <div className="fitter">
         <div className="boxHeight">
-          <div className="page-grid">
+          <div className="page-grid-b">
             <Fade left>
               <div className="left">
-                <h3 className="h3text">Our Mission</h3>
+                <h3 className="h3text">COACHES/MANAGERS</h3>
                 <p className="pText">
-                To be the number one database of both unprofessional and professional 
-                football talents globally and become the premier investment platform for footballers
+                  For so long, tournament data and player records have been
+                  poorly organized and managed. We are using advanced
+                  technologies to help you track and manage tournament data,
+                  player records and capture players brilliance to champion
+                  their professional status. We are also enabling coaches and
+                  aspiring soccer technicians build their profiles to track
+                  growth and progress. For so long, tournament data and player
+                  records have been poorly organized and managed. We are using
+                  advanced technologies to help you track and manage tournament
+                  data, player records and capture players brilliance to
+                  champion their professional status. We are also enabling
+                  coaches and aspiring soccer technicians build their profiles
+                  to track growth and progress.
                 </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Create and update personal career profiles.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Update tournament data.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Track and manage important sporting events.
+                    </li>
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
               </div>
             </Fade>
             <div className="right"></div>
@@ -203,49 +304,110 @@ export default function theMain() {
 
       <div className="fitter">
         <div className="boxHeight">
-          <>
-            <div className="centerText-section">
-              <div className="centerText-field">
-                <Flip left>
-                  <div className="centerText-container">
-                    <h3 className="centerText-container-header">Our Values</h3>
-                    <p className="centerText-container-text">
-                      When you combine human excellence, expertise and
-                      technology, this is what you get.
-                    </p>
-                  </div>
-                </Flip>
+          <div className="page-grid-b">
+            <div className="left"></div>
+            <Fade right>
+              <div className="right">
+                <h3 className="h3text">SOCCER ACADEMIES/CLUBS</h3>
+                <p className="pText">
+                  We’re simplifying data storage for academies, our platform
+                  will allow for academies and clubs to open pages, provide
+                  frequent updates about their activities, upload mini player
+                  profiles and data, and scout talents.
+                </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Showcase your players and various activities.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Track performances of players, and coaches.
+                    </li>
+                    <li className="page-content-order-list">
+                    <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Scout and attract young talents.
+                    </li>
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
               </div>
-            </div>
-          </>
-
-          <animated.div style={props}>
-            <BriefingSection />
-          </animated.div>
+            </Fade>
+          </div>
         </div>
       </div>
+
+      <PageBoxes />
+
+      <div className="">
+        <div className="fitter">
+          <div className="boxHeight">
+            <>
+              <div className="centerText-section">
+                <div className="centerText-field">
+                  <Flip left>
+                    <div className="centerText-container">
+                      <h3 className="centerText-container-header">
+                        Our Values
+                      </h3>
+                      <p className="centerText-container-text">
+                        When you combine human excellence, expertise and
+                        technology, this is what you get.
+                      </p>
+                    </div>
+                  </Flip>
+                </div>
+              </div>
+            </>
+
+            <animated.div style={props}>
+              <BriefingSection />
+            </animated.div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="sponsors-section">
+        <div className="page-container">
+          <h2 className="text-center">Our Sponsors</h2>
+          <section class="sponsors-tab">
+            <img src="https://africave.co/img/Arist%20logo.png" alt="" />
+            <img src="https://africave.co/img/asta.jpg" alt="" />
+            <img src="https://africave.co/img/verdi.png" alt="" />
+            <img src="https://africave.co/img/mavros.jpeg" alt="" />
+            <img src="https://africave.co/img/involt.jpeg" alt="" />
+          </section>
+        </div>
+      </div> */}
+
 
       <div className="">
         <div className="signUp-section">
           <div className="centerText-section2">
-            
             <div className="centerText-field">
               <div className="centerText-container">
-              <Reveal effect="fadeInUp">
-                <h3 className="centerText-container-header">Our Product</h3>
-                <p className="centerText-container-text">
-                  Connectiing aspiring football professionals to global
-                  opportunitiess
-                </p>
+                <Reveal effect="fadeInUp">
+                  <h3 className="centerText-container-header">Our Product</h3>
+                  <p className="centerText-container-text">
+                    Connectiing aspiring football professionals to global
+                    opportunitiess
+                  </p>
 
-                <a
-                href="./sections/ballHive"
-                className="extra-button">Ball Hive</a>
+                  <a href="./sections/ballHive" className="extra-button">
+                    Ball Hive
+                  </a>
                 </Reveal>
               </div>
             </div>
-          
-            
           </div>
         </div>
       </div>

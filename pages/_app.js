@@ -13,6 +13,8 @@ import '../assets/Toolbar.css'
 import '../assets/components/footer.css'
 import '../assets/components/navbar.css'
 
+import '../assets/Slide.css'
+
 import {AnimatePresence} from 'framer-motion'
 
 export default function MyApp({ Component, pageProps }) {

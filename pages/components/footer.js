@@ -20,17 +20,14 @@ export default function   FooterSection(){
       <h2>Address</h2>
       <div className="content">
         <div className="place">
-          <span className="fas fa-map-marker-alt"></span>
           <span className="text">NO. 1 Obadiah Street, Akoka, Lagos</span>
         </div>
 
         <div className="phone">
-          <span className="fas fa-phone-alt"></span>
           <span className="text">+234 906 382 4036, +49 152 5721 5907</span>
         </div>
 
         <div className="email">
-          <span className="fas fa-envelope"></span>
           <span className="text">Thesportsavalanche@gmail.com</span>
         </div>
       </div>
