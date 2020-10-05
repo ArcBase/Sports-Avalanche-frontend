@@ -168,25 +168,25 @@ export default function theMain() {
                 <div className="page-content-box">
                   <ul className="page-content-order">
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Create your profile.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Update and optimize your profile with our expert tips.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Connect directly with scouts.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Benefit from our unending pool of opportunities.{" "}
@@ -273,19 +273,19 @@ export default function theMain() {
                 <div className="page-content-box">
                   <ul className="page-content-order">
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Create and update personal career profiles.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Update tournament data.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Track and manage important sporting events.
@@ -318,19 +318,19 @@ export default function theMain() {
                 <div className="page-content-box">
                   <ul className="page-content-order">
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Showcase your players and various activities.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Track performances of players, and coaches.
                     </li>
                     <li className="page-content-order-list">
-                    <span>
+                      <span>
                         <FcCheckmark />
                       </span>{" "}
                       Scout and attract young talents.
@@ -389,17 +389,18 @@ export default function theMain() {
         </div>
       </div> */}
 
-
       <div className="">
         <div className="signUp-section">
           <div className="centerText-section2">
             <div className="centerText-field">
               <div className="centerText-container">
                 <Reveal effect="fadeInUp">
-                  <h3 className="centerText-container-header">Our Product</h3>
+                  <h3 className="centerText-container-header">Product</h3>
                   <p className="centerText-container-text">
-                    Connectiing aspiring football professionals to global
-                    opportunitiess
+                    The Ball Hive app lets aspiring fooball players build their
+                    professionl profile and gives scouts analysed reports on
+                    these players and lets players and scouts connect with each
+                    other
                   </p>
 
                   <a href="./sections/ballHive" className="extra-button">

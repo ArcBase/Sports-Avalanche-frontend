@@ -25,13 +25,13 @@
   padding: 1rem;
   background-color: rgb(63, 58, 58);
   /* height: 400px; */
-  border-bottom: 1px solid rgb(247, 147, 17);
+  border-bottom: 1px solid rgb(27, 182, 221);
 }
 
 .page-box-card-header{
   color: white;
   font-size: 1.5rem;
-  text-align: left;
+  text-align: center;
 }
 
 .page-box-card-text{
