@@ -5,7 +5,7 @@ export default function PageBoxes() {
     <div className="page-container">
       <div className="page-box-sizer">
         <div className="page-box-heading">
-          <h1 className="page-box-heading-header"> PROGRAMES</h1>
+          <h1 className="page-box-heading-header"> PROGRAMS</h1>
           
         </div>
         <div className="page-boxes-grid">
