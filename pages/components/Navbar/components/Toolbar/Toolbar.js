@@ -13,7 +13,7 @@ class Toolbar extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar__navigation">
-          {/* <div className="toolbar__logo">
+          <div className="toolbar__logo">
             <a href="/">
               <img
                 className="logo"
@@ -23,11 +23,10 @@ class Toolbar extends Component {
              
               
             </a>
-            SPORTS AVALANCHE
-          </div> */}
-          <h1 className="logo-text">
+          </div>
+          {/* <h1 className="logo-text">
           SPORT
-          </h1>
+          </h1> */}
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
