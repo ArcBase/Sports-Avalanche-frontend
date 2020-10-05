@@ -6,10 +6,7 @@ export default function PageBoxes() {
       <div className="page-box-sizer">
         <div className="page-box-heading">
           <h1 className="page-box-heading-header"> PROGRAMES</h1>
-          <p className="page-box-heading-text">
-            Europe's leading football performance app is connecting more than
-            800,000 players with coaches and scouts.
-          </p>
+          
         </div>
         <div className="page-boxes-grid">
           <div className="page-box-card">
