@@ -33,13 +33,19 @@ class Toolbar extends Component {
             <ul>
               <Link href="../">
                 <li className="nav-it">
-                  <a>Home</a>
+                  <a>About Us</a>
                 </li>
               </Link>
 
               <Link href="../sections/team">
                 <li className="nav-it">
-                  <a>Team</a>
+                  <a>Our Team</a>
+                </li>
+              </Link>
+
+              <Link href="../sections/ballHive">
+                <li className="nav-it-2">
+                  <a>Contact</a>
                 </li>
               </Link>
 
