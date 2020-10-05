@@ -194,7 +194,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
+                  <a className="page-content-button">Sign Up</a>
                 </div>
               </div>
             </Fade>
@@ -241,7 +241,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
+                  <a className="page-content-button">Sign Up</a>
                 </div>
               </div>
             </Fade>
@@ -293,7 +293,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
+                  <a className="page-content-button">Sign Up</a>
                 </div>
               </div>
             </Fade>
@@ -338,7 +338,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Get Started</a>
+                  <a className="page-content-button">Sign Up</a>
                 </div>
               </div>
             </Fade>
