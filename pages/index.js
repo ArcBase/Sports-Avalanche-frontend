@@ -348,30 +348,6 @@ export default function theMain() {
 
       <PageBoxes />
 
-      <div className="">
-        <div className="signUp-section">
-          <div className="centerText-section2">
-            <div className="centerText-field">
-              <div className="centerText-container">
-                <Reveal effect="fadeInUp">
-                  <h3 className="centerText-container-header">Product</h3>
-                  <p className="centerText-container-text">
-                    The Ball Hive app lets aspiring fooball players build their
-                    professionl profile and gives scouts analysed reports on
-                    these players and lets players and scouts connect with each
-                    other
-                  </p>
-
-                  <a href="./sections/ballHive" className="extra-button">
-                    Ball Hive
-                  </a>
-                </Reveal>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       <div className="">
         <div className="fitter">
@@ -413,6 +389,30 @@ export default function theMain() {
           </section>
         </div>
       </div> */}
+
+<div className="">
+        <div className="signUp-section">
+          <div className="centerText-section2">
+            <div className="centerText-field">
+              <div className="centerText-container">
+                <Reveal effect="fadeInUp">
+                  <h3 className="centerText-container-header">Product</h3>
+                  <p className="centerText-container-text">
+                    The Ball Hive app lets aspiring fooball players build their
+                    professionl profile and gives scouts analysed reports on
+                    these players and lets players and scouts connect with each
+                    other
+                  </p>
+
+                  <a href="./sections/ballHive" className="extra-button">
+                    Ball Hive
+                  </a>
+                </Reveal>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       <FooterSection />
