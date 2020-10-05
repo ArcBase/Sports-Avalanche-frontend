@@ -138,7 +138,7 @@ export default function theMain() {
     <>
       <NavbarTwo />
 
-      <div className="headerBox2">
+      <div className="headerBox">
         <div className="shiftBox">
           <div className="page-container">
             <div className="page-grid">
