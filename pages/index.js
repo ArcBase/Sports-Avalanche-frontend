@@ -392,7 +392,8 @@ export default function theMain() {
                 <Reveal effect="fadeInUp">
                   <h3 className="centerText-container-header">Product</h3>
                   <p className="centerText-container-text">
-                  The Ball Hive app, lets aspiring football players create profiles, upload content like highlight reels and workout routines, track performances by uploading individual statistics vetted by teammates and coaches, and gives exclusive information about various football trials near them.
+                  The Ball Hive app lets aspiring football players create profiles, upload contents like highlight reels and workout routines, track performances by uploading individual statistics vetted by teammates and coaches, and gives exclusive information about various football trials near them. Scouts now have access to a database of elite talents with data and insights to help them find the best talents. We are designing a product that serves the players, scouts, coaches and academies, see how it works.
+                  
                   </p>
 
                   <a href="./sections/ballHive" className="extra-button">

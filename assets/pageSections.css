@@ -160,10 +160,11 @@
 .openingText {
   color: white;
   font-size: 17px;
+
 }
 
 .openingButton-box {
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .openingButton {
@@ -213,9 +214,9 @@
   background-color: rgb(255, 255, 255);
   border-color: rgb(9, 138, 20);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   width: 200px;
-  height: 48px;
+  height: 50px;
   color: rgb(9, 138, 20);
   padding: 10px 10px 10px 10px;
   border-radius: 3px;
