@@ -12,23 +12,21 @@ export default function PageBoxes() {
           <div className="page-box-card">
             <h1 className="page-box-card-header">Digital Academy</h1>
             <p className="page-box-card-text">
-              We help you build yout professional career anf connect you with
-              elite mentorship to help you achieve your dreams
+              We help you build your professional career and bring football legends to mentor you to understand the various aspects and requirements of achieving successful football careers.
             </p>
           </div>
 
           <div className="page-box-card">
-            <h1 className="page-box-card-header">Monthly Rankings & Contest</h1>
+            <h1 className="page-box-card-header">Rankings & Contest</h1>
             <p className="page-box-card-text">
-              Fight for the tip spot in out monthly player ranking and enter
-              several contests
+                 Fight for the top spot in our monthly player rankings. Players are periodically selected to play against established football clubs and top academies to showcase their talent.
             </p>
           </div>
 
           <div className="page-box-card">
             <h1 className="page-box-card-header">Sponsorship</h1>
             <p className="page-box-card-text">
-              We groom and sport you for trial oppurtunities
+              Funding and direct investments are made on the promising talents on the platform to sponsor them to trial opportnities in different locations globally.
             </p>
           </div>
         </div>{" "}

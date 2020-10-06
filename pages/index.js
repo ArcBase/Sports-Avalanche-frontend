@@ -21,10 +21,10 @@ function Header() {
       >
         <p className="openingHead2">Sports Avalanche</p>
         <p className="openingText2">
-          Solving Problems in Sports with Innovative tech solution
+          Connecting aspiring football professionals to global opportunities
         </p>
         <div className="openingButton-box">
-          <a className="openingButton2">Get Started</a>
+          <a className="openingButton2">How It Works</a>
         </div>
       </div>
     </Fade>
@@ -48,42 +48,24 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon1} className="displayBoxes-icon-image" />
-            </div>
-            <p className="displayBoxes-heading">Transperency</p>
-            <p className="displayBoxes-text">
-              We believe in an open and purely merit based system of talent
-              evaluation.
-            </p>
-          </div>
-        </Flip>
-      </li>
-      <li className="displayBoxes-list">
-        <Flip bottom>
-          <div className="displayBoxes-text-content">
-            <div className="displayBoxes-icon">
-              <img src={Icon2} className="displayBoxes-icon-image" />
-            </div>
-            <p className="displayBoxes-heading">Dedication</p>
-            <p className="displayBoxes-text">
-              Our team is passionate and committed to creating better outcomes
-              for sports professionals globally through the use of technology
-              and innovation.
-            </p>
-          </div>
-        </Flip>
-      </li>
-
-      <li className="displayBoxes-list">
-        <Flip bottom>
-          <div className="displayBoxes-text-content">
-            <div className="displayBoxes-icon">
               <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">Democratization</p>
             <p className="displayBoxes-text">
-              We believe in creating access and providing equal opportunities
-              for everyone, regardless of their backgrounds and identities.
+              We believe in creating access and providing equal opportunities for everyone, regardless of their backgrounds and identities.
+            </p>
+          </div>
+        </Flip>
+      </li>
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon3} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Transparency</p>
+            <p className="displayBoxes-text">
+              We believe in an open and purely merit based system of talent evaluation.
             </p>
           </div>
         </Flip>
@@ -93,12 +75,25 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon2} className="displayBoxes-icon-image" />
+              <img src={Icon1} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Integrity</p>
+            <p className="displayBoxes-text">
+              We are determined to earn and retain the trust and full confidence of our users.
+            </p>
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon4} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">Dedication</p>
             <p className="displayBoxes-text">
-              We believe in creating access and providing equal opportunities
-              for everyone, regardless of their backgrounds and identities.
+              Our team is passionate and committed to creating better outcomes for sports professionals globally through the use of technology and innovation.
             </p>
           </div>
         </Flip>
@@ -361,8 +356,7 @@ export default function theMain() {
                         Our Values
                       </h3>
                       <p className="centerText-container-text">
-                        When you combine human excellence, expertise and
-                        technology, this is what you get.
+                        We believe in the core values of:
                       </p>
                     </div>
                   </Flip>
@@ -398,10 +392,7 @@ export default function theMain() {
                 <Reveal effect="fadeInUp">
                   <h3 className="centerText-container-header">Product</h3>
                   <p className="centerText-container-text">
-                    The Ball Hive app lets aspiring fooball players build their
-                    professionl profile and gives scouts analysed reports on
-                    these players and lets players and scouts connect with each
-                    other
+                  The Ball Hive app, lets aspiring football players create profiles, upload content like highlight reels and workout routines, track performances by uploading individual statistics vetted by teammates and coaches, and gives exclusive information about various football trials near them.
                   </p>
 
                   <a href="./sections/ballHive" className="extra-button">

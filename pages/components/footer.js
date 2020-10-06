@@ -9,7 +9,7 @@ export default function FooterSection() {
             <h2>About Us</h2>
             <div className="content">
               <p>
-                We are solving problems in sports with innovative tech solutions
+                Connecting aspiring football professionals to global opportunities
               </p>
               <div className="social">
                 <a href="#">
@@ -43,7 +43,7 @@ export default function FooterSection() {
               </div>
 
               <div className="email">
-                <span className="text">Thesportsavalanche@gmail.com</span>
+                <span className="text">Info@sportsavalanche.com</span>
               </div>
             </div>
           </div>
