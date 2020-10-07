@@ -15,7 +15,7 @@
 }
 
 .side-drawer.open {
-  transform: translateX(0);
+  trans`: translateX(0);
 }
 
 .side-drawer ul {
