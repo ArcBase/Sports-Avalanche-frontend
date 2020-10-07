@@ -26,6 +26,18 @@ export default function NavigationBar() {
             </li>
           </Link>
 
+          <Link href="../sections/cards">
+            <li>
+              <a>Card</a>
+            </li>
+          </Link>
+
+          {/* <Link href="../sections/cards">
+            <li>
+            <a>Card</a>  
+            <li/>
+          </Link> */}
+
           <li>
             <a href="#">Contact</a>
           </li>

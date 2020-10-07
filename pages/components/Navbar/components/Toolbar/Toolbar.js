@@ -36,7 +36,7 @@ class Toolbar extends Component {
                 </li>
               </Link>
 
-              <Link href="../sections/team">
+              <Link href="../sections/team-b">
                 <li className="nav-it">
                   <a>Team</a>
                 </li>
@@ -47,6 +47,12 @@ class Toolbar extends Component {
                   <a>Contact</a>
                 </li>
               </Link>
+
+              {/* <Link href="../sections/cards">
+                <li className="nav-it">
+                  <a>Cards</a>
+                </li>
+              </Link> */}
 
               <Link href="../sections/ballHive">
                 <li className="nav-it-2">

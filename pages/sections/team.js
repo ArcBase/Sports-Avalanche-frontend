@@ -120,12 +120,14 @@ export default function TeamPage() {
 
       <div className="teamBox">
         <div className="shiftBox">
-          <div className="page-grid">
-            <div className="left">
-              <TeamHeader />
-            </div>
+          <div className="page-container">
+            <div className="page-grid">
+              <div className="left">
+                <TeamHeader />
+              </div>
 
-            <div className="right"></div>
+              <div className="right"></div>
+            </div>
           </div>
         </div>
       </div>

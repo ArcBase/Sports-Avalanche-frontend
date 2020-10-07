@@ -11,6 +11,8 @@ import { FcCheckmark } from "react-icons/fc";
 import NavbarTwo from "./components/navbar-two";
 import PageBoxes from "./components/page-boxes";
 
+
+
 function Header() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
   return (
@@ -21,10 +23,10 @@ function Header() {
       >
         <p className="openingHead2">Sports Avalanche</p>
         <p className="openingText2">
-          Connecting aspiring football professionals to global opportunities
+          Solving Problems in Sports with Innovative tech solution
         </p>
         <div className="openingButton-box">
-          <a className="openingButton2">How It Works</a>
+          <a className="openingButton2">Get Started</a>
         </div>
       </div>
     </Fade>
@@ -48,24 +50,42 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
+              <img src={Icon1} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Transperency</p>
+            <p className="displayBoxes-text">
+              We believe in an open and purely merit based system of talent
+              evaluation.
+            </p>
+          </div>
+        </Flip>
+      </li>
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              Our team is passionate and committed to creating better outcomes
+              for sports professionals globally through the use of technology
+              and innovation.
+            </p>
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
               <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">Democratization</p>
             <p className="displayBoxes-text">
-              We believe in creating access and providing equal opportunities for everyone, regardless of their backgrounds and identities.
-            </p>
-          </div>
-        </Flip>
-      </li>
-      <li className="displayBoxes-list">
-        <Flip bottom>
-          <div className="displayBoxes-text-content">
-            <div className="displayBoxes-icon">
-              <img src={Icon3} className="displayBoxes-icon-image" />
-            </div>
-            <p className="displayBoxes-heading">Transparency</p>
-            <p className="displayBoxes-text">
-              We believe in an open and purely merit based system of talent evaluation.
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
             </p>
           </div>
         </Flip>
@@ -75,25 +95,12 @@ const BriefingSection = () => {
         <Flip bottom>
           <div className="displayBoxes-text-content">
             <div className="displayBoxes-icon">
-              <img src={Icon1} className="displayBoxes-icon-image" />
-            </div>
-            <p className="displayBoxes-heading">Integrity</p>
-            <p className="displayBoxes-text">
-              We are determined to earn and retain the trust and full confidence of our users.
-            </p>
-          </div>
-        </Flip>
-      </li>
-
-      <li className="displayBoxes-list">
-        <Flip bottom>
-          <div className="displayBoxes-text-content">
-            <div className="displayBoxes-icon">
-              <img src={Icon4} className="displayBoxes-icon-image" />
+              <img src={Icon2} className="displayBoxes-icon-image" />
             </div>
             <p className="displayBoxes-heading">Dedication</p>
             <p className="displayBoxes-text">
-              Our team is passionate and committed to creating better outcomes for sports professionals globally through the use of technology and innovation.
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
             </p>
           </div>
         </Flip>
@@ -189,7 +196,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Sign Up</a>
+                  <a className="page-content-button">Get Started</a>
                 </div>
               </div>
             </Fade>
@@ -236,7 +243,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Sign Up</a>
+                  <a className="page-content-button">Get Started</a>
                 </div>
               </div>
             </Fade>
@@ -288,7 +295,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Sign Up</a>
+                  <a className="page-content-button">Get Started</a>
                 </div>
               </div>
             </Fade>
@@ -333,7 +340,7 @@ export default function theMain() {
                   </ul>
                 </div>
                 <div className="page-content-button-box">
-                  <a className="page-content-button">Sign Up</a>
+                  <a className="page-content-button">Get Started</a>
                 </div>
               </div>
             </Fade>
@@ -342,6 +349,30 @@ export default function theMain() {
       </div>
 
       <PageBoxes />
+
+      {/* <div className="">
+        <div className="signUp-section">
+          <div className="centerText-section2">
+            <div className="centerText-field">
+              <div className="centerText-container">
+                <Reveal effect="fadeInUp">
+                  <h3 className="centerText-container-header">Product</h3>
+                  <p className="centerText-container-text">
+                    The Ball Hive app lets aspiring fooball players build their
+                    professionl profile and gives scouts analysed reports on
+                    these players and lets players and scouts connect with each
+                    other
+                  </p>
+
+                  <a href="./sections/ballHive" className="extra-button">
+                    Ball Hive
+                  </a>
+                </Reveal>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
 
       <div className="">
@@ -356,7 +387,8 @@ export default function theMain() {
                         Our Values
                       </h3>
                       <p className="centerText-container-text">
-                        We believe in the core values of:
+                        When you combine human excellence, expertise and
+                        technology, this is what you get.
                       </p>
                     </div>
                   </Flip>
@@ -364,9 +396,11 @@ export default function theMain() {
               </div>
             </>
 
-            <animated.div style={props}>
+
+
+            {/* <animated.div style={props}>
               <BriefingSection />
-            </animated.div>
+            </animated.div> */}
           </div>
         </div>
       </div>
@@ -383,28 +417,6 @@ export default function theMain() {
           </section>
         </div>
       </div> */}
-
-<div className="">
-        <div className="signUp-section">
-          <div className="centerText-section2">
-            <div className="centerText-field">
-              <div className="centerText-container">
-                <Reveal effect="fadeInUp">
-                  <h3 className="centerText-container-header">Product</h3>
-                  <p className="centerText-container-text">
-                  The Ball Hive app lets aspiring football players create profiles, upload contents like highlight reels and workout routines, track performances by uploading individual statistics vetted by teammates and coaches, and gives exclusive information about various football trials near them. Scouts now have access to a database of elite talents with data and insights to help them find the best talents. We are designing a product that serves the players, scouts, coaches and academies, see how it works.
-                  
-                  </p>
-
-                  <a href="./sections/ballHive" className="extra-button">
-                    Ball Hive
-                  </a>
-                </Reveal>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
       <FooterSection />

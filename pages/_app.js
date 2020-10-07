@@ -14,6 +14,7 @@ import '../assets/components/footer.css'
 import '../assets/components/navbar.css'
 
 import '../assets/Slide.css'
+// import '../assets/cards.css'
 
 import {AnimatePresence} from 'framer-motion'
 
