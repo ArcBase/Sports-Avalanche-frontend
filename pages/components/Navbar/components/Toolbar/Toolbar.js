@@ -42,7 +42,7 @@ class Toolbar extends Component {
                 </li>
               </Link>
 
-              <Link href="../sections/ballHive">
+              <Link href="../sections/regForm">
                 <li className="nav-it">
                   <a>Contact</a>
                 </li>

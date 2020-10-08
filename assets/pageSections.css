@@ -100,11 +100,11 @@
   height: 100vh;
   background-color: rgb(255, 255, 255);
   background:
-   /* linear-gradient(
+   linear-gradient(
       45deg,
-      rgba(27, 26, 26, 0.959) 0%,
-      rgba(14, 13, 13, 0.795) 100%
-    ), */
+      rgba(43, 75, 43, 0.959) 0%,
+      rgba(23, 235, 76, 0.795) 100%
+    ),
     url('https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Sports+Avalanche.png')
       center center no-repeat;
   background-size: cover;

@@ -66,6 +66,7 @@
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 .startUpTeam-container {
@@ -87,19 +88,20 @@
   /* box-shadow: 2px 5px 11px 0 rgba(232,232,232,0.79);  */
   padding: 20px;
   border-radius: 4px;
-  display: flex;
+  display: block;
 }
 
 .startUpTeam-container
   .startUpTeam-list
   .startUpTeam-box
   .startUpTeam-image-box {
-  width: 35%;
+  /* width: 35%; */
   position: relative;
-  -ms-flex-align: center;
+  /* -ms-flex-align: center; */
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   padding: 5px;
 }
 
@@ -110,20 +112,20 @@
   .startUpTeam-image {
   max-width: 300px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
 .startUpTeam-container
   .startUpTeam-list
   .startUpTeam-box
   .startUpTeam-box-text-content {
-  width: 65%;
+  /* width: 65%; */
   position: relative;
-  -ms-flex-align: center;
+  /* -ms-flex-align: center; */
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   padding: 5px;
 }
 
@@ -135,7 +137,7 @@
   font-size: 25px;
   font-weight: 200;
   color: rgb(255, 255, 255);
-  text-align: left;
+  text-align: center;
 }
 
 .startUpTeam-container
@@ -150,7 +152,7 @@
 
 .startUpTeam-box-socials {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(20, 1fr);
   margin-top: 20px;
   grid-gap: 20px;
 }
@@ -190,9 +192,13 @@
   box-shadow: var(--shadow);
 }
 
+.team-header-content{
+  margin: 60px 0px 0px 0px;
+}
+
 .team-header-heading {
   font-size: 2rem;
-  color: rgb(185, 235, 4);
+  color: rgb(16, 172, 24);
   text-align: center;
 }
 
@@ -201,14 +207,14 @@
 }
 
 .team-box-header {
-  color:  rgb(185, 235, 4);
+  color: rgb(16, 172, 24);
 }
 
 .team-box-button{
     background: none;
-    border: 1px solid  rgb(185, 235, 4);
+    border: 2px solid rgb(16, 172, 24);
     padding: 1rem;
-    color:   rgb(185, 235, 4);
+    color:  rgb(16, 172, 24);
     border-radius: 14px;
     margin-top: 1rem;
 }

@@ -1,0 +1,53 @@
+.playSignUp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  
+}
+
+.playSignUp-container .playSignUp-form-fields{
+    display: block;
+    width: 400px;
+}
+
+
+/* Add padding to containers */
+
+  
+  /* Full-width input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 14px;
+    background: #f1f1f1;
+  }
+  
+
+
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }

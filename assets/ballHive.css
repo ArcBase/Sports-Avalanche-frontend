@@ -1,0 +1,17 @@
+.ballHive-intro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ballHive-intro-image{
+    height: 300px;
+   
+}
+
+.ballHive-intro-logo{
+    position: relative;
+    height: inherit;
+    width: 600px;
+}

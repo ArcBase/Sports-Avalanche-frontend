@@ -15,6 +15,9 @@ import '../assets/components/navbar.css'
 
 import '../assets/Slide.css'
 // import '../assets/cards.css'
+import 'antd/dist/antd.css';
+import "~antd/dist/antd.less";
+
 
 import {AnimatePresence} from 'framer-motion'
 

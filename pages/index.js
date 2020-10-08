@@ -398,17 +398,17 @@ export default function theMain() {
 
 
 
-            {/* <animated.div style={props}>
+            <animated.div style={props}>
               <BriefingSection />
-            </animated.div> */}
+            </animated.div>
           </div>
         </div>
       </div>
 
-      {/* <div className="sponsors-section">
+      <div className="sponsors-section">
         <div className="page-container">
           <h2 className="text-center">Our Sponsors</h2>
-          <section class="sponsors-tab">
+          <section className="sponsors-tab">
             <img src="https://africave.co/img/Arist%20logo.png" alt="" />
             <img src="https://africave.co/img/asta.jpg" alt="" />
             <img src="https://africave.co/img/verdi.png" alt="" />
@@ -416,7 +416,7 @@ export default function theMain() {
             <img src="https://africave.co/img/involt.jpeg" alt="" />
           </section>
         </div>
-      </div> */}
+      </div>
 
 
       <FooterSection />
