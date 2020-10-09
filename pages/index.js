@@ -404,18 +404,7 @@ export default function theMain() {
         </div>
       </div>
 
-      <div className="sponsors-section">
-        <div className="page-container">
-          <h2 className="text-center">Our Sponsors</h2>
-          <section className="sponsors-tab">
-            <img src="https://africave.co/img/Arist%20logo.png" alt="" />
-            <img src="https://africave.co/img/asta.jpg" alt="" />
-            <img src="https://africave.co/img/verdi.png" alt="" />
-            <img src="https://africave.co/img/mavros.jpeg" alt="" />
-            <img src="https://africave.co/img/involt.jpeg" alt="" />
-          </section>
-        </div>
-      </div>
+
 
 
       <FooterSection />
