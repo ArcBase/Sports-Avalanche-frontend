@@ -3,8 +3,7 @@ import { Fade, Flip, Slide, Reveal } from "react-reveal";
 import FooterSection from '../components/footer'
 import { FcCheckmark  } from "react-icons/fc";
 import {} from '@fortawesome/fontawesome-svg-core'
-import NavbarTwo from "../components/navbar-two";
- 
+
 
 function Header() {
   // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
