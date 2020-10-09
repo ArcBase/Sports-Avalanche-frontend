@@ -97,7 +97,7 @@
 }
 
 .headerBox2 {
-  height: 100vh;
+  height: 900px;
   background-color: rgb(255, 255, 255);
   background:
    linear-gradient(
@@ -237,12 +237,18 @@
 
 @media (max-width: 769px) {
   .headerBox2 {
-    height: 100vh;
+    height: auto
+  }
+}
+
+@media (max-width: 569px) {
+  .headerBox2 {
+    height: auto
   }
 }
 
 @media (max-width: 360px) {
   .headerBox2 {
-    height: 100vh;
+    height: auto
   }
 }

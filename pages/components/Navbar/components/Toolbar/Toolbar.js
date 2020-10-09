@@ -22,7 +22,7 @@ class Toolbar extends Component {
               />
              
               
-            </a> \
+            </a>
           </div>
           {/* <h1 className="logo-text">
           SPORT

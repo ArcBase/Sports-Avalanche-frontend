@@ -26,7 +26,7 @@ const sendData = async (e) => {
   fd.append('phone',phone)
   fd.append('videoUpload',videoUpload)
 
-
+ 
   axios.post(endpoint, fd)
   .then(res=>{
     if (res.status == 200){

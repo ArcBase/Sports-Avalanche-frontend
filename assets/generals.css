@@ -37,14 +37,16 @@
     margin: 10px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
     display : flex;
-    align-self:left;
+    align-self:center;
     justify-content: center;
 }
 
 .displayBoxes-box .displayBoxes-list .displayBoxes-text-content .displayBoxes-icon .displayBoxes-icon-image{
     height: 100px;
 
-}
+} 
+
+
 
 /* Sign Up is Coming Section */
 

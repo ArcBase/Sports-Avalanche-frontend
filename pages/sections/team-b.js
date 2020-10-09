@@ -1,7 +1,8 @@
 import React from "react";
-import NavbarTwo from "../components/navbar-two";
-import Link from "next/link";
 
+import Link from "next/link";
+import NavbarTwo from "../components/navbar-two";
+ 
 
 export default function Teams() {
   const potrait =
@@ -140,6 +141,7 @@ export default function Teams() {
       </div>
     </div>
    </div>
+   <NavbarTwo/>
    </>
   );
 }

@@ -96,3 +96,42 @@ margin-top: 20px;
   padding: 10px 10px 10px 10px;
   border-radius: 3px;
 }
+
+@media (max-width:569px){
+    .ballHive-intro-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .ballHive-intro-image{
+        height: 100px;
+        display: block;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .ballHive-intro-logo{
+        position: relative;
+        height: inherit;
+        width: 100%;
+    }
+    
+    .ballHive-intro-text-content{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .ballHive-intro-heading{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .ballHive-intro-text{
+        font-size: 20px;
+        text-align: center;
+    }
+}

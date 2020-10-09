@@ -1,5 +1,10 @@
 import NavbarTwo from "../components/navbar-two";
 import { Fade, Flip, Slide, Reveal } from "react-reveal";
+import FooterSection from '../components/footer'
+import { FcCheckmark  } from "react-icons/fc";
+import {} from '@fortawesome/fontawesome-svg-core'
+import NavbarTwo from "../components/navbar-two";
+ 
 
 function Header() {
   // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
@@ -87,6 +92,85 @@ function BallHIveValues() {
     </div>
   );
 }
+ 
+const BriefingSection = () => {
+  const brieftText =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam, quis";
+  const Icon1 =
+    "https://operapay.com/static/entrepreneurship-d58f1f92c1e1610bf94c0c4f52df42ac.png";
+  const Icon2 =
+    "https://operapay.com/static/diversity-adf7cb76247cac698f4b9728d9093558.png";
+  const Icon3 =
+    "https://operapay.com/static/innovation-2d24351f8b17ca734e10ce320b8dca6d.png";
+  const Icon4 =
+    "https://operapay.com/static/community-04b9cf599f180bb56b2fef2dc4e6ce20.png";
+  return (
+    <ul className="displayBoxes-box">
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon1} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">PLAYER</p>
+            <p className="displayBoxes-text">
+              
+            </p>
+          </div>
+        </Flip>
+      </li>
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">Scout</p>
+            <p className="displayBoxes-text">
+            
+            </p>
+        
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">
+              Coach/Manager
+            </p>
+            <p className="displayBoxes-text">
+           
+            </p>
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              <img src={Icon2} className="displayBoxes-icon-image" />
+            </div>
+            <p className="displayBoxes-heading">
+              Academia
+            </p>
+            <p className="displayBoxes-text">
+              
+            </p>
+          </div>
+        </Flip>
+      </li>
+    </ul>
+  );
+};
+
+
+
 
 function BallHiveIntro() {
   return (
@@ -133,6 +217,8 @@ export default function BallHivePage() {
         <BallHiveIntro />
       </div>
 
+
+
       <div className="fitter">
         <div style={{ paddingTop: 20 }} className="page-grid">
           <div className="left">
@@ -154,7 +240,7 @@ export default function BallHivePage() {
           <div className="right">
             <div className="page-grid-image-container">
               {/* <img
-                src
+                src="https://www.mockupworld.co/wp-content/uploads/dynamic/2020/07/free-isometric-iphone-mockup-psd-690x455-c-default.jpg"
                 className="page-grid-image"
               /> */}
             </div>
@@ -163,9 +249,94 @@ export default function BallHivePage() {
       </div>
 
 
-      <div className="fitter">
-        <BallHIveValues />
+      <div className="page-container">
+        <div className="boxHeight">
+          <div className="page-grid-b">
+            <Fade left>
+              <div className="left">
+                <h3 className="h3text">Programs</h3>
+                <p className="pText">
+                  As an aspiring football professional, we help you build and
+                  optimize your profile, upload highlight reels, track your
+                  progress and performances .
+                </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Create your profile.
+                    </li>
+                  
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Benefit from our unending pool of opportunities.{" "}
+                    </li>
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
+              </div>
+            </Fade>
+            <div className="right"></div>
+          </div>
+        </div>
       </div>
+
+
+      <div className="fitter">
+        <div className="boxHeight">
+          <div className="page-grid-b">
+            <div className="left"></div>
+            <Fade right>
+              <div className="right">
+                <h3 className="h3text">SCOUTS</h3>
+                <p className="pText">
+                  We are leveraging on technology to improve scouting by giving
+                  scouts access to a broad and diverse database of talents. We
+                  are creating a platform for millions of talents to prove
+                  themselves to scouts.
+                </p>
+                <div className="page-content-box">
+                  <ul className="page-content-order">
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Get access to our pool of talents and study expert reports
+                      and analytics.{" "}
+                    </li>
+                    <li className="page-content-order-list">
+                      <span>
+                        <FcCheckmark />
+                      </span>{" "}
+                      Use our advance search filter to find talents that fit
+                      your requirements.
+                    </li>
+                   
+                  </ul>
+                </div>
+                <div className="page-content-button-box">
+                  <a className="page-content-button">Get Started</a>
+                </div>
+              </div>
+            </Fade>
+          </div>
+        </div>
+      </div>
+
+
+
+              <div className="fitter">
+                <BriefingSection/>
+              </div>
+
+        <FooterSection/>
+
     </>
   );
 }
