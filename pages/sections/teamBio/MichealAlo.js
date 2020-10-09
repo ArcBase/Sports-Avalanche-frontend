@@ -33,16 +33,13 @@ export default function AloBio(){
                          </div>
        
                          <div className="startUpTeam-box-text-content">
-                           <p className="startUpTeam-box-heading">CEO , Founder</p>
+                           <p className="startUpTeam-box-heading">CO-FOUNDER & CTO</p>
                            <p className="startUpTeam-box-text">
-                             Faithfulness is an alumnus of the University of Calabar.
-                             He is Lawyer (with interests in Sports and Intellectual
-                             Property Law) and an Entrepreneur. He did his National
-                             Youth Service in the Faculty of Law, University of Lagos,
-                             where he served as an assistant lecturer. While doing his
-                             LLB, he was an active member of the UNICAL Debating club,
-                             where he honed his critical thinking and leadership
-                             skills.
+                           Michael Alo is a Software Developer, with profound interests in tech solutions and business digitalization.
+                            He has a good understanding of technical concepts, possesses great communication skills and has excelled in the past as a team player.
+                             He shows strategic and innovative thinking and is also grounded in design thinking.
+                              Michael has been a tech entrepreneur for over half a decade and is now focused on building ‘Ball Hive’,
+                               the digital platform he hopes can become a lead player in the imminent sports tech revolution.
                            </p>
                            <div className="startUpTeam-box-socials">
                              <div className="startUpTeam-box-socials-image-content">

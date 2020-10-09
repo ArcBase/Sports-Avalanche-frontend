@@ -23,7 +23,7 @@ function Header() {
       >
         <p className="openingHead2">Sports Avalanche</p>
         <p className="openingText2">
-          Solving Problems in Sports with Innovative tech solution
+          Connecting aspiring football professionals to global opportunities
         </p>
         <div className="openingButton-box">
           <a className="openingButton2">Get Started</a>
@@ -387,8 +387,7 @@ export default function theMain() {
                         Our Values
                       </h3>
                       <p className="centerText-container-text">
-                        When you combine human excellence, expertise and
-                        technology, this is what you get.
+                        We believe in the core values of:
                       </p>
                     </div>
                   </Flip>

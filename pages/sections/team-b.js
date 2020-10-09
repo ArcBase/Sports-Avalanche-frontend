@@ -15,9 +15,10 @@ export default function Teams() {
         <div className="team-header-conten">
           <h1 className="team-header-heading">TEAM</h1>
           <p className="team-header-paragraqh">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere at
-            delectus laudantium, deserunt, atque eveniet. Voluptatem, fuga quos
-            rerum inventore.
+            Our team make the difference at Sports Avalanche, and that includes everyone dedicated to achieving our vision.
+             Our team is diverse, consisting of a Lawyer, a UEFA Accredited Sports Journalist, Software Developers, Interface Designers and seasoned Business Advisors.
+              We are focused on providing digital solutions to the various problems sports enthusiasts face across Africa and the world at large.
+              We combine deep knowledge of industries and geographies with breadth of experience, and we are dedicated to a singular goal: connecting aspiring soccer professionals to global opportunities, augmenting the scouting process, and bringing stellar innovations to sports globally.
           </p>
         </div>
         <div className="team-boxes">
@@ -27,9 +28,12 @@ export default function Teams() {
               <img src={potrait} className="startUpTeam-image" />
             </div>
 
-            <h3 className="team-box-header">Analytics</h3>
+            <h3 className="team-box-header">CEO</h3>
             <p className="team-box-text">
-              Micheal Alo
+              FAITHFULNESS OKOM
+            </p>
+            <p className="team-box-text-b">
+              Lawyer
             </p>
             <Link href="./teamBio/AttorneyFPage">
           <button className="team-box-button">VIEW BIO</button>
@@ -39,9 +43,12 @@ export default function Teams() {
             <div className="startUpTeam-image-box">
               <img src={potrait} className="startUpTeam-image" />
             </div>
-            <h3 className="team-box-header">Marketing</h3>
+            <h3 className="team-box-header">CTO</h3>
             <p className="team-box-text">
-              Attorney Faithfulness
+              MICHAEL ALO
+            </p>
+            <p className="team-box-text-b">
+              Software Developer
             </p>
             <>
           <Link href="./teamBio/MichealAlo">
@@ -53,9 +60,12 @@ export default function Teams() {
             <div className="startUpTeam-image-box">
               <img src={potrait} className="startUpTeam-image" />
             </div>
-            <h3 className="team-box-header">Development</h3>
+            <h3 className="team-box-header">COO</h3>
             <p className="team-box-text">
-              Omah
+              OMA AKATUGBA
+            </p>
+            <p className="team-box-text-b">
+              UEFA Accredited Sports Journalist
             </p>
             <Link href="./teamBio/omahA">
           <button className="team-box-button">VIEW BIO</button>
@@ -67,10 +77,7 @@ export default function Teams() {
       <div className="team-header-content">
         <div className="team-header-conten">
           <h1 className="team-header-heading">ADVISORS</h1>
-          <p className="team-header-paragraqh">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere at
-            delectus laudantium, deserunt, atque eveniet. Voluptatem, fuga quos
-            rerum inventore.
+          <p className="team-header-paragraqh"> 
           </p>
         </div>
         <div className="team-boxes">
@@ -80,10 +87,9 @@ export default function Teams() {
               <img src={potrait} className="startUpTeam-image" />
             </div>
 
-            <h3 className="team-box-header">TIM</h3>
+            <h3 className="team-box-header">BUSINESS CONSULTANTS & FINANCIAL EXPERTS</h3>
             <p className="team-box-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-              expedita?
+              The Pitch Hub
             </p>
             <button className="team-box-button">VIEW BIO</button>
           </div>
@@ -104,10 +110,9 @@ export default function Teams() {
               <img src={potrait} className="startUpTeam-image" />
             </div>
 
-            <h3 className="team-box-header">Analytics</h3>
+            <h3 className="team-box-header">SOFTWARE DEVELOPER</h3>
             <p className="team-box-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-              expedita?
+              Adebayo Taiwo
             </p>
           
           </div>
@@ -115,10 +120,9 @@ export default function Teams() {
             <div className="startUpTeam-image-box">
               <img src={potrait} className="startUpTeam-image" />
             </div>
-            <h3 className="team-box-header">Marketing</h3>
+            <h3 className="team-box-header">SOFTWARE DEVELOPER</h3>
             <p className="team-box-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-              expedita?
+              Adebayo Kehinde
             </p>
           
           </div>
@@ -126,10 +130,9 @@ export default function Teams() {
             <div className="startUpTeam-image-box">
               <img src={potrait} className="startUpTeam-image" />
             </div>
-            <h3 className="team-box-header">Development</h3>
+            <h3 className="team-box-header">UI/UX DESIGNER</h3>
             <p className="team-box-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
-              expedita?
+              Ibraheem Adewale
             </p>
             
           </div>

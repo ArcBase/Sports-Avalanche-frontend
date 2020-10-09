@@ -13,7 +13,7 @@ const AttorneyF_Image =
 
 
 const instagramIcon =
-  "https://cdn.iconscout.com/icon/premium/png-64-thumb/instagram-1805197-1532288.png";
+  "https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-512.png";
 const linkedInicon =
   "https://cdn.iconscout.com/icon/free/png-64/linkedin-1464529-1239440.png";
 const twitterIcon =
@@ -35,16 +35,16 @@ function AttorneyF(){
                          </div>
        
                          <div className="startUpTeam-box-text-content">
-                           <p className="startUpTeam-box-heading">CEO , Founder</p>
+                           <p className="startUpTeam-box-heading">CO-FOUNDER & CEO</p>
                            <p className="startUpTeam-box-text">
                              Faithfulness is an alumnus of the University of Calabar.
-                             He is Lawyer (with interests in Sports and Intellectual
-                             Property Law) and an Entrepreneur. He did his National
-                             Youth Service in the Faculty of Law, University of Lagos,
-                             where he served as an assistant lecturer. While doing his
-                             LLB, he was an active member of the UNICAL Debating club,
-                             where he honed his critical thinking and leadership
-                             skills.
+                              He is Lawyer (with interests in Sports and Intellectual Property Law) and an Entrepreneur.
+                               He did his National Youth Service in the Faculty of Law, University of Lagos, where he served as an assistant lecturer.
+                                While doing his LLB, he was an active member of the UNICAL Debating club, where he honed his critical thinking and leadership skills.
+                                 In 5 years of competitive debating, he participated in over 35 tournaments across the globe. Prominent amongst them are the Harvard Invitational held in Boston,
+                                  the HWS IV in New York and several tournaments across Africa including the Pan African Championships held in Ghana.
+                              He has won 12 debating trophies, the most by any African speaker in history. He is passionate about sports and began football punditry in high school making a few appearances on Cross River Broadcasting Corporation (CRBC) TV along the line.
+                                Ball Hive is a project dear to his heart, it is a project through which he expects to have a concrete platform to help sports enthusiasts benefit from innovation, and generally democratize access to opportunities in the industry.
                            </p>
                            <div className="startUpTeam-box-socials">
                              <div className="startUpTeam-box-socials-image-content">
