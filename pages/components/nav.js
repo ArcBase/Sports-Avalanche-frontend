@@ -25,7 +25,7 @@ export default function NavigationBar() {
               <a>Product</a>
             </li>
           </Link>
-
+ 
           <Link href="../sections/cards">
             <li>
               <a>Card</a>

@@ -22,7 +22,7 @@ class Toolbar extends Component {
               />
              
               
-            </a>
+            </a> \
           </div>
           {/* <h1 className="logo-text">
           SPORT
@@ -30,19 +30,19 @@ class Toolbar extends Component {
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
-              <Link href="../">
+              <Link href="">
                 <li className="nav-it">
                   <a>About</a>
                 </li>
               </Link>
 
-              <Link href="../sections/team-b">
+              <Link href="../../../../sections/team-b">
                 <li className="nav-it">
                   <a>Team</a>
                 </li>
               </Link>
 
-              <Link href="../sections/regForm">
+              <Link href="../../../../sections/regForm">
                 <li className="nav-it">
                   <a>Contact</a>
                 </li>
@@ -54,7 +54,7 @@ class Toolbar extends Component {
                 </li>
               </Link> */}
 
-              <Link href="../sections/ballHive">
+              <Link href="../../../../sections/ballHive">
                 <li className="nav-it-2">
                   <a>Get Scouted</a>
                 </li>

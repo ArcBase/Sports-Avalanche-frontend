@@ -16,8 +16,6 @@ import '../assets/components/navbar.css'
 import '../assets/Slide.css'
 // import '../assets/cards.css'
 
-
-import '../assets/regForm.css'
 import '../assets/ballHive.css'
 import '../assets/playerSignUp.css'
 
