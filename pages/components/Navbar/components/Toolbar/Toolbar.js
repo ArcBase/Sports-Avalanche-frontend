@@ -20,8 +20,6 @@ class Toolbar extends Component {
                 src="https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/Asset+2%403x.png"
                 alt="logo"
               />
-             
-              
             </a>
           </div>
           {/* <h1 className="logo-text">
@@ -56,7 +54,7 @@ class Toolbar extends Component {
 
               <Link href="../../../../sections/ballHive">
                 <li className="nav-it-2">
-                  <a>Get Scouted</a>
+                  <button className="nav-button">Get Scouted</button>
                 </li>
               </Link>
             </ul>

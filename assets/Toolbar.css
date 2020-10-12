@@ -48,16 +48,14 @@
 } */
 
 .nav-it{
-  padding: 20px 20px;
-
+  padding:2rem 1rem;
 }
 
 .nav-it-2{
   padding: 20px 20px;
-  background-color: #049444;
+  /* background-color: #049444; */
   color: rgb(255, 255, 255) !important;
   border-radius: 5px;
- 
 }
 
 .nav-it-2 a{
@@ -86,6 +84,14 @@
 .logo-text{
   color: #fff;
   font-size: 2rem;
+}
+
+.nav-button{
+  border: none;
+  background-color: #049444;
+  padding: .75rem 1rem;
+  color: #fff;
+  border-radius: 6px;
 }
 
 @media (max-width: 768px) {

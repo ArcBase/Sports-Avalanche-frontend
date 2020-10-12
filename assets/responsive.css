@@ -24,5 +24,32 @@
     /* padding: 100px; */
     }
 
+    .page-container{
+        max-width: 769px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        padding: 2rem;
+    }
+
+    .header-text{
+        margin: 0rem;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .page-container{
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        padding: 2rem;
+    }
+
+    .header-text{
+        margin: 0rem;
+    }
 
 }

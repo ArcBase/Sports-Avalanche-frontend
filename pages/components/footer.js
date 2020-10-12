@@ -17,7 +17,6 @@ export default function FooterSection() {
                 </a>
 
                 <a href="#">
-                  {" "}
                   <FaTwitter />
                 </a>
                 <a href="#">

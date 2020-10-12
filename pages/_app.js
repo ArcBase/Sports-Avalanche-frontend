@@ -4,7 +4,7 @@ import '../assets/generals.css'
 import '../assets/team.css'
 
 import '../assets/Backdrop.css'
-import '../assets/DrawerToggleButton.css'
+// import '../assets/DrawerToggleButton.css'
 import '../assets/Navbar.css'
 import '../assets/responsive.css'
 import '../assets/SideDrawer.css'
@@ -16,8 +16,12 @@ import '../assets/components/navbar.css'
 import '../assets/Slide.css'
 // import '../assets/cards.css'
 
+// import '../assets/new-navbar.css';
+import '../assets/Button.css'
+
 import '../assets/ballHive.css'
 import '../assets/playerSignUp.css'
+import '../assets/landing-page.css'
 
 import {AnimatePresence} from 'framer-motion'
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Upload, message } from "antd";
-import { InboxOutlined } from "@ant-design/icons";
+// import { InboxOutlined } from "@ant-design/icons";
 import NavbarTwo from "../components/navbar-two";
 
 const { Dragger } = Upload;

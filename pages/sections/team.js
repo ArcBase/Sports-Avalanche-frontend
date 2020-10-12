@@ -112,7 +112,7 @@ export default function TeamPage() {
   const potrait =
     "https://www.duckerfrontier.com/wp-content/uploads/2019/01/Chris-Fisher225x225.png";
   const AttorneyF_Image =
-    "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/AttroneyF.jpeg";
+    "https://newsletter-images-precise.s3.eu-west-2.amazonaws.com/Avalanche/attorf.jfif";
 
   return (
     <>
