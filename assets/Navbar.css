@@ -74,3 +74,15 @@
 span {
   margin-left: 16px;
 }
+
+@media (max-width: 320px){
+  .logo{
+    height: 45px;
+  }
+}
+
+@media (max-width: 700px){
+  .logo{
+    height: 45px;
+  }
+}

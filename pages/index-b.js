@@ -84,12 +84,12 @@ const BriefingSection = () => {
             </div>
             <p className="displayBoxes-heading">Democratization</p>
             <p className="displayBoxes-text">
-              We believe in creating access and providing equal opportunities
+              We believe in creating access and providing equal opportunities5
               for everyone, regardless of their backgrounds and identities.
             </p>
           </div>
         </Flip>
-      </li>
+      </li> 
 
       <li className="displayBoxes-list">
         <Flip bottom>

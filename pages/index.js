@@ -98,6 +98,88 @@ const PageContent = () => {
   );
 };
 
+
+const BriefingSection = () => {
+  const brieftText =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam, quis";
+  const Icon1 =
+    "https://operapay.com/static/entrepreneurship-d58f1f92c1e1610bf94c0c4f52df42ac.png";
+  const Icon2 =
+    "https://operapay.com/static/diversity-adf7cb76247cac698f4b9728d9093558.png";
+  const Icon3 =
+    "https://operapay.com/static/innovation-2d24351f8b17ca734e10ce320b8dca6d.png";
+  const Icon4 =
+    "https://operapay.com/static/community-04b9cf599f180bb56b2fef2dc4e6ce20.png";
+  return (
+    <ul className="displayBoxes-box">
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              {/* <img src={Icon1} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
+            </div>
+            <p className="displayBoxes-heading">Transperency</p>
+            <p className="displayBoxes-text">
+              We believe in an open and purely merit based system of talent
+              evaluation.
+            </p>
+          </div>
+        </Flip>
+      </li>
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+            <GiSoccerBall />
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
+            </div>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              Our team is passionate and committed to creating better outcomes
+              for sports professionals globally through the use of technology
+              and innovation.
+            </p>
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
+            </div>
+            <p className="displayBoxes-heading">Democratization</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
+          </div>
+        </Flip>
+      </li>
+
+      <li className="displayBoxes-list">
+        <Flip bottom>
+          <div className="displayBoxes-text-content">
+            <div className="displayBoxes-icon">
+              {/* <img src={Icon2} className="displayBoxes-icon-image" /> */}
+              <GiSoccerBall />
+            </div>
+            <p className="displayBoxes-heading">Dedication</p>
+            <p className="displayBoxes-text">
+              We believe in creating access and providing equal opportunities
+              for everyone, regardless of their backgrounds and identities.
+            </p>
+          </div>
+        </Flip>
+      </li>
+    </ul>
+  );
+};
+
+
 const PageContentB = () => {
   return (
     <>
@@ -310,7 +392,8 @@ export default function Main() {
       <NavbarTwo />
       <Header />
       <PageContentB />
-      <PageContent />
+      {/* <PageContent /> */}
+      <BriefingSection/>
       <FooterSection />
     </>
   );
