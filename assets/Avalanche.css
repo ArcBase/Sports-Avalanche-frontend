@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(24, 26, 27) !important;
+  background-color: rgb(255, 255, 255) !important;
   color: #fff !important;
 }
 
@@ -10,8 +10,26 @@ body{
 }
 
 .container {
-  padding: 30px 60px 30px 60px;
+  display: flex;
+  flex-direction: column;
 }
+
+
+.generalHeading{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #00690e;
+  font-weight: bold;
+}
+
+/* .center-fit{
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 500px;
+} */
 
 .container2 {
   padding: 30px 1600px 30px 160px;
@@ -455,7 +473,8 @@ body{
   }
 
   .container {
-    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
   }
 
   .container2 {

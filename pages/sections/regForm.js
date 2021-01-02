@@ -2,21 +2,26 @@ import React, { useState, useEffect } from "react";
 import { GiSoccerBall } from "react-icons/gi";
 
 import axios from "axios";
-import { Upload, message } from "antd";
-// import { InboxOutlined } from "@ant-design/icons";
 import NavbarTwo from "../components/navbar-two";
+import { Input, Form, Select, Upload, Tabs, message } from "antd";
+const { TabPane } = Tabs;
+
+import { InboxOutlined } from "@ant-design/icons";
 
 const { Dragger } = Upload;
+const { Option } = Select;
 
 const SectionBoxes = () => {
   const [isPlayer, setisPlayer] = useState(false);
   const [registeringCategory, setRegisteringCategory] = useState("Player");
+  const [videoFile ,setVideo] = useState([])
   const Coach = "Coach";
   const Scout = "Scout";
 
   function userIsPlayer() {
     setisPlayer(true);
     setRegisteringCategory("Player");
+    console.log(isPlayer)
   }
 
   function dontUserPlayer(Val) {
@@ -25,34 +30,36 @@ const SectionBoxes = () => {
     console.log(Val);
   }
 
-  const sendData = async (e) => {
-    e.preventDefault();
-    const host = "http://127.0.0.1:8000";
+  const sendData = async (values) => {
+   
+    // const host = "https://avalanche-backend.herokuapp.com";
+    const host = 'http://127.0.0.1:8000'
     const endpoint = host + `/core/reg-upload/`;
 
-    const fName = e.target.elements.firstname.value;
-    const lName = e.target.elements.lastname.value;
-    const email = e.target.elements.email.value;
-    const phone = e.target.elements.phone.value;
+    const fName =  values['fName']
+    const lName =  values['lName']
+    const email =  values['Email']
+    const Position = values['Position']
+    const Phone = values['Phone']
 
-    let videoUpload = "null";
+    let videoUpload = videoFile
     let Age = 0;
 
     if (registeringCategory == Coach || registeringCategory == Scout) {
     } else {
-      videoUpload = e.target.elements.playerVideo.files;
-      Age = e.target.elements.age.value;
+      // videoUpload = e.target.elements.playerVideo.files;
+      // Age = e.target.elements.age.value;
     }
-
     const Category = registeringCategory;
 
-    console.log(fName, lName, email, phone, videoUpload, Category);
+    console.log(fName, lName, email, Phone, videoUpload, Category);
 
     let fd = new FormData();
     fd.append("fName", fName);
     fd.append("lName", lName);
-    fd.append("email", email);
-    fd.append("phone", phone);
+    fd.append("email", email); 
+    fd.append("phone", Phone);
+    fd.append('Position',Position)
     fd.append("videoUpload", videoUpload);
     fd.append("category", Category);
     fd.append("age", Age);
@@ -66,117 +73,179 @@ const SectionBoxes = () => {
     });
   };
 
+  // Video
+  
+const props = {
+  name: 'file',
+  multiple: true,
+  action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+  onChange(info) {
+    const { status } = info.file;
+    console.log(info.file)
+    if (status !== 'uploading') {
+      console.log('the file',info.file);
+      setVideo(info.fileList[0].originFileObj)
+      console.log('file list' ,info.fileList[0].originFileObj )
+    }
+    if (status === 'done') {
+      message.success(`${info.file.name} file uploaded successfully.`);
+    } else if (status === 'error') {
+      // message.error(`${info.file.name} file upload failed.`);
+    }
+  },
+};
+
+
+
   return (
     <>
-      <form
-        onSubmit={(e) => {
-          sendData(e);
-        }}
-      >
-        <div className="container">
-          <h1>Register</h1>
-          <p>Please fill in this form to create an account.</p>
-
-          <label for="email">
-            <b>First Name</b>
-          </label>
-          <input
-            type="text"
-            placeholder="Your First Name"
-            name="firstname"
-            required
-          />
-
-          <label for="email">
-            <b>Last Name</b>
-          </label>
-          <input
-            type="text"
-            placeholder="Your Last Name"
-            name="lastname"
-            required
-          />
-
-          <label for="email">
-            <b>Email</b>
-          </label>
-          <input type="text" placeholder="Your Email" name="email" required />
-
-          <label for="Phone">
-            <b>Phone</b>
-          </label>
-
-          <input
-            type="text"
-            placeholder="Your Phone Number"
-            name="phone"
-            required
-          />
-
-          <div className="reg-category-container">
-            <h3 className="reg-category-heading">Your Role</h3>
-            <ul className="reg-category-list">
-              <li onClick={userIsPlayer} className="reg-category-item">
-                <div className="reg-category-icon">
-                  <GiSoccerBall />
+      <div className="container">
+      <div className="">
+                <div className="">
+                    <p className="generalHeading">
+                      Sign Up Today 
+                      </p>
                 </div>
-                <p className="reg-category-text">Player</p>
-              </li>
-
-              <li
-                onClick={() => {
-                  dontUserPlayer(Coach);
-                }}
-                className="reg-category-item"
+              <Form
+                className=""
+                onFinish={sendData}
               >
-                <div className="reg-category-icon">
-                  <GiSoccerBall />
-                </div>
-                <p className="reg-category-text">Scout</p>
-              </li>
+                <Form.Item rules={[{ required: true }]} name="fName">
+                  <Input
+                    size="large"
+                    placeholder="Your First Name?"
+                    enterButton
+                  />
+                </Form.Item>
+                <Form.Item rules={[{ required: true }]} name="lName">
+                  <Input
+                    size="large"
+                    placeholder="Your Last Name?"
+                    enterButton
+                  />
+                </Form.Item>
 
-              <li
-                onClick={() => {
-                  dontUserPlayer(Scout);
-                }}
-                className="reg-category-item"
-              >
-                <div className="reg-category-icon">
-                  <GiSoccerBall />
-                </div>
-                <p className="reg-category-text">Coach</p>
-              </li>
-            </ul>
-          </div>
+                <Form.Item rules={[{ required: true }]} name="Email">
+                  <Input size="large" placeholder="Your Email?" enterButton />
+                </Form.Item>
+                
+                <Form.Item rules={[{ required: true }]} name="Phone">
+                  <Input size="large" placeholder="Your Email?" enterButton />
+                </Form.Item>
 
-          {isPlayer ? (
-            <>
-              <input
-                type="file"
-                accept="image/*"
-                name="image"
-                id="file"
-                name="playerVideo"
-                required
-              />
+                <Form.Item rules={[{ required: true }]} name="Nationality">
+                  <Input size="large" placeholder="Nationality?" enterButton />
+                </Form.Item>
 
-              <div>
-                <label for="Age">
-                  <b>Age</b>
-                </label>
+                <Form.Item rules={[{ required: true }]} name="Position">
+                  <Input
+                    size="large"
+                    placeholder="Playing Position"
+                    enterButton
+                  />
+                </Form.Item>
+                
+                {/* <Form.Item
+                    rules={[{ required: true }]}
+                    name="State"
+                    hasFeedback
+                  >
+                    <Select size="large" placeholder="Select Your Role">
+                    <Option
+                    onSelect={()=>{userIsPlayer()}}
+                    value='Player'>
+                      Player
+                    </Option>
+                    <Option
+                      onSelect={() => {
+                        dontUserPlayer(Coach);
+                      }}
+                    value='Coach'>
+                      Coach
+                    </Option>
+                    <Option
+                    onSelect={() => {
+                      dontUserPlayer(Scout);
+                    }}
+                    value='Scout'>
+                      Scout
+                    </Option>
+                      
+                    </Select>
+                  </Form.Item> */}
 
-                <input type="text" placeholder="Your Age" name="age" required />
-              </div>
-            </>
-          ) : (
-            <></>
-          )}
+                <Form.Item>
+                  <div className="reg-category-container">
+                    <h3 className="reg-category-heading">
+                      
+                      </h3>
+                    <ul className="reg-category-list">
+                      <li onClick={userIsPlayer} className="reg-category-item">
+                        <div className="reg-category-icon">
+                          <GiSoccerBall />
+                        </div>
+                        <p className="reg-category-text">Player</p>
+                      </li>
 
-          <button type="submit" className="registerbtn">
-            Sign Up
-          </button>
-        </div>
-      </form>
+                      <li
+                        onClick={() => {
+                          dontUserPlayer(Coach);
+                        }}
+                        className="reg-category-item"
+                      >
+                        <div className="reg-category-icon">
+                          <GiSoccerBall />
+                        </div>
+                        <p className="reg-category-text">Scout</p>
+                      </li>
+
+                      <li
+                        onClick={() => {
+                          dontUserPlayer(Scout);
+                        }}
+                        className="reg-category-item"
+                      >
+                        <div className="reg-category-icon">
+                          <GiSoccerBall />
+                        </div>
+                        <p className="reg-category-text">Coach</p>
+                        
+                      </li>
+                    </ul>
+                  </div>
+
+                  {isPlayer ? (
+                    <>
+                      <Dragger {...props}>
+                        <p className="ant-upload-drag-icon">
+                          <InboxOutlined />
+                        </p>
+                        <p className="ant-upload-text">
+                          Click or drag file to this area to upload
+                        </p>
+                        <p className="ant-upload-hint">
+                          Support for a single or bulk upload. Strictly prohibit
+                          from uploading company data or other band files
+                        </p>
+                      </Dragger>
+                    ]
+                 
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                  <button
+                    type="submit"
+                    htmltype="submit"
+                    className="registerbtn"
+                  >
+                    Sign Up
+                  </button>
+                </Form.Item>
+              </Form>
+            </div>
+      </div>
+     
     </>
   );
 };

@@ -7,8 +7,11 @@
 }
 
 .playSignUp-container .playSignUp-form-fields{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 600px;
+    padding: 20px;
   }
 
 .reg-category-container{
@@ -16,7 +19,7 @@
 }
 
 .reg-category-container .reg-category-list{
-  display: grid;
+  display: grid; 
   grid-template-columns:repeat(3, 1fr);
   grid-gap: 20px;
 }
@@ -48,14 +51,7 @@
 
   
   /* Full-width input fields */
-  input[type=text] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border-radius: 0px;
-    /* background: #7c7c7c; */
-  }
+  
   
 
 

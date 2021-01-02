@@ -17,7 +17,7 @@ import Navbar from "./components/new-navbar";
 
 
 const Header = () => {
-  return (
+  return ( 
     <div className="page-container">
       <div className="header-section">
         <div className="header-text">

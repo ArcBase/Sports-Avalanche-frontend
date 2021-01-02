@@ -25,6 +25,15 @@ import '../assets/landing-page.css'
 
 import {AnimatePresence} from 'framer-motion'
 
+import stylesheet from 'antd/dist/antd.min.css'
+
+
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return(
+    <>
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+       <Component {...pageProps} />;
+       
+       </>
+    )
 }
